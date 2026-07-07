@@ -1,0 +1,6536 @@
+[
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "thin",
+    "pos": "形",
+    "chinese": "瘦的",
+    "type": "clean",
+    "quizWord": "thin"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "little",
+    "pos": "形",
+    "chinese": "小的",
+    "type": "clean",
+    "quizWord": "little"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "side",
+    "pos": "名",
+    "chinese": "邊；側",
+    "type": "clean",
+    "quizWord": "side"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "trash can",
+    "pos": "名",
+    "chinese": "垃圾桶",
+    "type": "phrase",
+    "quizWord": "trash can"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "quiet",
+    "pos": "形",
+    "chinese": "安靜的",
+    "type": "clean",
+    "quizWord": "quiet"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "pretty",
+    "pos": "形",
+    "chinese": "漂亮的",
+    "type": "clean",
+    "quizWord": "pretty"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "free",
+    "pos": "形",
+    "chinese": "自由的",
+    "type": "clean",
+    "quizWord": "free"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "soup",
+    "pos": "名",
+    "chinese": "湯",
+    "type": "clean",
+    "quizWord": "soup"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "sandwich",
+    "pos": "名",
+    "chinese": "三明治",
+    "type": "clean",
+    "quizWord": "sandwich"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "salad",
+    "pos": "名",
+    "chinese": "沙拉",
+    "type": "clean",
+    "quizWord": "salad"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "miss",
+    "pos": "動",
+    "chinese": "想念",
+    "type": "clean",
+    "quizWord": "miss"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "than",
+    "pos": "介",
+    "chinese": "比",
+    "type": "clean",
+    "quizWord": "than"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "hers",
+    "pos": "代",
+    "chinese": "她的",
+    "type": "clean",
+    "quizWord": "hers"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "bath",
+    "pos": "名",
+    "chinese": "洗澡",
+    "type": "clean",
+    "quizWord": "bath"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "clothes",
+    "pos": "名",
+    "chinese": "衣物",
+    "type": "clean",
+    "quizWord": "clothes"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "sock",
+    "pos": "名",
+    "chinese": "襪子",
+    "type": "clean",
+    "quizWord": "sock"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "paw",
+    "pos": "名",
+    "chinese": "腳爪",
+    "type": "clean",
+    "quizWord": "paw"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "sweater",
+    "pos": "名",
+    "chinese": "毛衣",
+    "type": "clean",
+    "quizWord": "sweater"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "already",
+    "pos": "副",
+    "chinese": "已經",
+    "type": "clean",
+    "quizWord": "already"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "maybe",
+    "pos": "副",
+    "chinese": "也許",
+    "type": "clean",
+    "quizWord": "maybe"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "lonely",
+    "pos": "形",
+    "chinese": "寂寞的",
+    "type": "clean",
+    "quizWord": "lonely"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "blow",
+    "pos": "動",
+    "chinese": "吹",
+    "type": "clean",
+    "quizWord": "blow"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "fat",
+    "pos": "形",
+    "chinese": "胖的",
+    "type": "clean",
+    "quizWord": "fat"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "towel",
+    "pos": "名",
+    "chinese": "毛巾",
+    "type": "clean",
+    "quizWord": "towel"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "T-shirt",
+    "pos": "名",
+    "chinese": "T恤",
+    "type": "clean",
+    "quizWord": "T-shirt"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "skirt",
+    "pos": "名",
+    "chinese": "裙子",
+    "type": "clean",
+    "quizWord": "skirt"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "shorts",
+    "pos": "名",
+    "chinese": "短褲",
+    "type": "clean",
+    "quizWord": "shorts"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "shirt",
+    "pos": "名",
+    "chinese": "襯衫",
+    "type": "clean",
+    "quizWord": "shirt"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "dress",
+    "pos": "名",
+    "chinese": "洋裝",
+    "type": "clean",
+    "quizWord": "dress"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "jeans",
+    "pos": "名",
+    "chinese": "牛仔褲",
+    "type": "clean",
+    "quizWord": "jeans"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "pants",
+    "pos": "名",
+    "chinese": "長褲",
+    "type": "clean",
+    "quizWord": "pants"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "coat",
+    "pos": "名",
+    "chinese": "大衣",
+    "type": "clean",
+    "quizWord": "coat"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "tie",
+    "pos": "名",
+    "chinese": "領帶",
+    "type": "clean",
+    "quizWord": "tie"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "belt",
+    "pos": "名",
+    "chinese": "腰帶",
+    "type": "clean",
+    "quizWord": "belt"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "glove",
+    "pos": "名",
+    "chinese": "手套",
+    "type": "clean",
+    "quizWord": "glove"
+  },
+  {
+    "version": "南一版",
+    "lesson": 1,
+    "word": "hat",
+    "pos": "名",
+    "chinese": "帽子",
+    "type": "clean",
+    "quizWord": "hat"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "ice cream",
+    "pos": "名",
+    "chinese": "冰淇淋",
+    "type": "phrase",
+    "quizWord": "ice cream"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "sound",
+    "pos": "動",
+    "chinese": "聽起來",
+    "type": "clean",
+    "quizWord": "sound"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "seller",
+    "pos": "名",
+    "chinese": "賣家",
+    "type": "clean",
+    "quizWord": "seller"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "cut",
+    "pos": "動",
+    "chinese": "切",
+    "type": "clean",
+    "quizWord": "cut"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "stand",
+    "pos": "名",
+    "chinese": "攤位",
+    "type": "clean",
+    "quizWord": "stand"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "smell",
+    "pos": "動",
+    "chinese": "聞起來",
+    "type": "clean",
+    "quizWord": "smell"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "tomato",
+    "pos": "名",
+    "chinese": "番茄",
+    "type": "clean",
+    "quizWord": "tomato"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "cheese",
+    "pos": "名",
+    "chinese": "起司",
+    "type": "clean",
+    "quizWord": "cheese"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "stomach",
+    "pos": "名",
+    "chinese": "胃",
+    "type": "clean",
+    "quizWord": "stomach"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "feel",
+    "pos": "動",
+    "chinese": "感覺起來",
+    "type": "clean",
+    "quizWord": "feel"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "hot dog",
+    "pos": "名",
+    "chinese": "熱狗",
+    "type": "phrase",
+    "quizWord": "hot dog"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "toast",
+    "pos": "名",
+    "chinese": "烤麵包",
+    "type": "clean",
+    "quizWord": "toast"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "butter",
+    "pos": "名",
+    "chinese": "奶油",
+    "type": "clean",
+    "quizWord": "butter"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "popcorn",
+    "pos": "名",
+    "chinese": "爆米花",
+    "type": "clean",
+    "quizWord": "popcorn"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "cookie",
+    "pos": "名",
+    "chinese": "餅乾",
+    "type": "clean",
+    "quizWord": "cookie"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "steak",
+    "pos": "名",
+    "chinese": "肉餅；牛排",
+    "type": "clean",
+    "quizWord": "steak"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "bun",
+    "pos": "名",
+    "chinese": "小圓麵包",
+    "type": "clean",
+    "quizWord": "bun"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "bean",
+    "pos": "名",
+    "chinese": "豆子",
+    "type": "clean",
+    "quizWord": "bean"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "ham",
+    "pos": "名",
+    "chinese": "火腿",
+    "type": "clean",
+    "quizWord": "ham"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "French fries",
+    "pos": "名",
+    "chinese": "薯條",
+    "type": "phrase",
+    "quizWord": "French fries"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "village",
+    "pos": "名",
+    "chinese": "村莊",
+    "type": "clean",
+    "quizWord": "village"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "hold",
+    "pos": "動",
+    "chinese": "舉辦",
+    "type": "clean",
+    "quizWord": "hold"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "traditional",
+    "pos": "形",
+    "chinese": "傳統的",
+    "type": "clean",
+    "quizWord": "traditional"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "on display",
+    "pos": "片",
+    "chinese": "展示",
+    "type": "phrase",
+    "quizWord": "on display"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "main",
+    "pos": "形",
+    "chinese": "主要的",
+    "type": "clean",
+    "quizWord": "main"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "square",
+    "pos": "名",
+    "chinese": "廣場",
+    "type": "clean",
+    "quizWord": "square"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "ring",
+    "pos": "動",
+    "chinese": "響鈴",
+    "type": "clean",
+    "quizWord": "ring"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "bell",
+    "pos": "名",
+    "chinese": "鐘；鈴",
+    "type": "clean",
+    "quizWord": "bell"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "buyer",
+    "pos": "名",
+    "chinese": "買家",
+    "type": "clean",
+    "quizWord": "buyer"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "touch",
+    "pos": "動",
+    "chinese": "觸摸",
+    "type": "clean",
+    "quizWord": "touch"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "deal",
+    "pos": "名",
+    "chinese": "交易",
+    "type": "clean",
+    "quizWord": "deal"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "clap",
+    "pos": "動",
+    "chinese": "拍(手)",
+    "type": "clean",
+    "quizWord": "clap"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "shout",
+    "pos": "動",
+    "chinese": "喊叫",
+    "type": "clean",
+    "quizWord": "shout"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "agree",
+    "pos": "動",
+    "chinese": "同意",
+    "type": "clean",
+    "quizWord": "agree"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "shake hands",
+    "pos": "片",
+    "chinese": "握手",
+    "type": "phrase",
+    "quizWord": "shake hands"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "smile",
+    "pos": "名",
+    "chinese": "微笑",
+    "type": "clean",
+    "quizWord": "smile"
+  },
+  {
+    "version": "南一版",
+    "lesson": 2,
+    "word": "pay a visit",
+    "pos": "片",
+    "chinese": "拜訪",
+    "type": "phrase",
+    "quizWord": "pay a visit"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "slowly",
+    "pos": "副",
+    "chinese": "緩慢地",
+    "type": "clean",
+    "quizWord": "slowly"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "tuna",
+    "pos": "名",
+    "chinese": "鮪魚",
+    "type": "clean",
+    "quizWord": "tuna"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "loudly",
+    "pos": "副",
+    "chinese": "大聲地",
+    "type": "clean",
+    "quizWord": "loudly"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "classmate",
+    "pos": "名",
+    "chinese": "同學",
+    "type": "clean",
+    "quizWord": "classmate"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "neighbor",
+    "pos": "名",
+    "chinese": "鄰居",
+    "type": "clean",
+    "quizWord": "neighbor"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "giant",
+    "pos": "形",
+    "chinese": "巨大的",
+    "type": "clean",
+    "quizWord": "giant"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "block",
+    "pos": "動",
+    "chinese": "阻擋",
+    "type": "clean",
+    "quizWord": "block"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "net",
+    "pos": "名",
+    "chinese": "網子",
+    "type": "clean",
+    "quizWord": "net"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "lucky",
+    "pos": "形",
+    "chinese": "幸運的",
+    "type": "clean",
+    "quizWord": "lucky"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "hide",
+    "pos": "動",
+    "chinese": "躲藏",
+    "type": "clean",
+    "quizWord": "hide"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "rock",
+    "pos": "名",
+    "chinese": "岩石",
+    "type": "clean",
+    "quizWord": "rock"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "a while",
+    "pos": "片",
+    "chinese": "一會兒",
+    "type": "phrase",
+    "quizWord": "a while"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "shine",
+    "pos": "動",
+    "chinese": "照耀",
+    "type": "clean",
+    "quizWord": "shine"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "tail",
+    "pos": "名",
+    "chinese": "尾巴",
+    "type": "clean",
+    "quizWord": "tail"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "alone",
+    "pos": "形",
+    "chinese": "單獨的；獨自的",
+    "type": "clean",
+    "quizWord": "alone"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "brave",
+    "pos": "形",
+    "chinese": "勇敢的",
+    "type": "clean",
+    "quizWord": "brave"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "somewhere",
+    "pos": "代",
+    "chinese": "某處",
+    "type": "clean",
+    "quizWord": "somewhere"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "from now on",
+    "pos": "片",
+    "chinese": "從現在開始",
+    "type": "phrase",
+    "quizWord": "from now on"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "watch out",
+    "pos": "片",
+    "chinese": "留意",
+    "type": "phrase",
+    "quizWord": "watch out"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "count on...",
+    "pos": "片",
+    "chinese": "依靠...",
+    "type": "phrase",
+    "quizWord": "count on..."
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "brush",
+    "pos": "名",
+    "chinese": "刷子",
+    "type": "clean",
+    "quizWord": "brush"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "basket",
+    "pos": "名",
+    "chinese": "籃；籠",
+    "type": "clean",
+    "quizWord": "basket"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "newspaper",
+    "pos": "名",
+    "chinese": "報紙",
+    "type": "clean",
+    "quizWord": "newspaper"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "plastic",
+    "pos": "形",
+    "chinese": "塑膠的",
+    "type": "clean",
+    "quizWord": "plastic"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "pot",
+    "pos": "名",
+    "chinese": "鍋；壺",
+    "type": "clean",
+    "quizWord": "pot"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "mask",
+    "pos": "名",
+    "chinese": "口罩",
+    "type": "clean",
+    "quizWord": "mask"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "straw",
+    "pos": "名",
+    "chinese": "吸管",
+    "type": "clean",
+    "quizWord": "straw"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "bench",
+    "pos": "名",
+    "chinese": "長凳",
+    "type": "clean",
+    "quizWord": "bench"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "bottle cap",
+    "pos": "名",
+    "chinese": "瓶蓋",
+    "type": "phrase",
+    "quizWord": "bottle cap"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "button",
+    "pos": "名",
+    "chinese": "鈕扣",
+    "type": "clean",
+    "quizWord": "button"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "used to",
+    "pos": "片",
+    "chinese": "過去經常",
+    "type": "phrase",
+    "quizWord": "used to"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "noisy",
+    "pos": "形",
+    "chinese": "嘈雜的",
+    "type": "clean",
+    "quizWord": "noisy"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "chance",
+    "pos": "名",
+    "chinese": "機會",
+    "type": "clean",
+    "quizWord": "chance"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "oil",
+    "pos": "名",
+    "chinese": "油",
+    "type": "clean",
+    "quizWord": "oil"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "wastewater",
+    "pos": "名",
+    "chinese": "廢水",
+    "type": "clean",
+    "quizWord": "wastewater"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "breathe",
+    "pos": "動",
+    "chinese": "呼吸",
+    "type": "clean",
+    "quizWord": "breathe"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "trick",
+    "pos": "動",
+    "chinese": "誘騙",
+    "type": "clean",
+    "quizWord": "trick"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "not...any longer",
+    "pos": "片",
+    "chinese": "不再...",
+    "type": "phrase",
+    "quizWord": "not...any longer"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "kill",
+    "pos": "動",
+    "chinese": "殺害",
+    "type": "clean",
+    "quizWord": "kill"
+  },
+  {
+    "version": "南一版",
+    "lesson": 3,
+    "word": "sincerely",
+    "pos": "副",
+    "chinese": "誠摯地",
+    "type": "clean",
+    "quizWord": "sincerely"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "America",
+    "pos": "名",
+    "chinese": "美國",
+    "type": "clean",
+    "quizWord": "America"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "a little",
+    "pos": "片",
+    "chinese": "一些；少量的",
+    "type": "phrase",
+    "quizWord": "a little"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "mango",
+    "pos": "名",
+    "chinese": "芒果",
+    "type": "clean",
+    "quizWord": "mango"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "fall in love",
+    "pos": "片",
+    "chinese": "愛上",
+    "type": "phrase",
+    "quizWord": "fall in love"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "watermelon",
+    "pos": "名",
+    "chinese": "西瓜",
+    "type": "clean",
+    "quizWord": "watermelon"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "popular",
+    "pos": "形",
+    "chinese": "受歡迎的；流行的",
+    "type": "clean",
+    "quizWord": "popular"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "guava",
+    "pos": "名",
+    "chinese": "芭樂",
+    "type": "clean",
+    "quizWord": "guava"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "papaya",
+    "pos": "名",
+    "chinese": "木瓜",
+    "type": "clean",
+    "quizWord": "papaya"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "peach",
+    "pos": "名",
+    "chinese": "桃子",
+    "type": "clean",
+    "quizWord": "peach"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "paradise",
+    "pos": "名",
+    "chinese": "天堂",
+    "type": "clean",
+    "quizWord": "paradise"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "mouth",
+    "pos": "名",
+    "chinese": "嘴巴",
+    "type": "clean",
+    "quizWord": "mouth"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "water",
+    "pos": "動",
+    "chinese": "流口水",
+    "type": "clean",
+    "quizWord": "water"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "climate",
+    "pos": "名",
+    "chinese": "氣候",
+    "type": "clean",
+    "quizWord": "climate"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "skillful",
+    "pos": "形",
+    "chinese": "有技術的；熟練的",
+    "type": "clean",
+    "quizWord": "skillful"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "supermarket",
+    "pos": "名",
+    "chinese": "超市",
+    "type": "clean",
+    "quizWord": "supermarket"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "strawberry",
+    "pos": "名",
+    "chinese": "草莓",
+    "type": "clean",
+    "quizWord": "strawberry"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "lemon",
+    "pos": "名",
+    "chinese": "檸檬",
+    "type": "clean",
+    "quizWord": "lemon"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "pear",
+    "pos": "名",
+    "chinese": "梨子",
+    "type": "clean",
+    "quizWord": "pear"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "grape",
+    "pos": "名",
+    "chinese": "葡萄",
+    "type": "clean",
+    "quizWord": "grape"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "sugar",
+    "pos": "名",
+    "chinese": "糖",
+    "type": "clean",
+    "quizWord": "sugar"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "quarter",
+    "pos": "名",
+    "chinese": "四分之一；十五分鐘",
+    "type": "clean",
+    "quizWord": "quarter"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "excellent",
+    "pos": "形",
+    "chinese": "極好的",
+    "type": "clean",
+    "quizWord": "excellent"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "grow",
+    "pos": "動",
+    "chinese": "種植",
+    "type": "clean",
+    "quizWord": "grow"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "several",
+    "pos": "形",
+    "chinese": "幾個的",
+    "type": "clean",
+    "quizWord": "several"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "successfully",
+    "pos": "副",
+    "chinese": "成功地",
+    "type": "clean",
+    "quizWord": "successfully"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "improve",
+    "pos": "動",
+    "chinese": "改善",
+    "type": "clean",
+    "quizWord": "improve"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "seed",
+    "pos": "名",
+    "chinese": "種子；籽",
+    "type": "clean",
+    "quizWord": "seed"
+  },
+  {
+    "version": "南一版",
+    "lesson": 4,
+    "word": "abroad",
+    "pos": "副",
+    "chinese": "到國外；在國外",
+    "type": "clean",
+    "quizWord": "abroad"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "science",
+    "pos": "名",
+    "chinese": "科學",
+    "type": "clean",
+    "quizWord": "science"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "strange",
+    "pos": "形",
+    "chinese": "奇怪的",
+    "type": "clean",
+    "quizWord": "strange"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "sound",
+    "pos": "名",
+    "chinese": "聲音",
+    "type": "clean",
+    "quizWord": "sound"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "through",
+    "pos": "介",
+    "chinese": "穿越",
+    "type": "clean",
+    "quizWord": "through"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "tunnel",
+    "pos": "名",
+    "chinese": "隧道",
+    "type": "clean",
+    "quizWord": "tunnel"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "noise",
+    "pos": "名",
+    "chinese": "噪音",
+    "type": "clean",
+    "quizWord": "noise"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "although",
+    "pos": "連",
+    "chinese": "雖然；儘管(=though)",
+    "type": "clean",
+    "quizWord": "although"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "not at all",
+    "pos": "片",
+    "chinese": "一點也不(表達強烈否定)",
+    "type": "phrase",
+    "quizWord": "not at all"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "both",
+    "pos": "代",
+    "chinese": "兩者(都)",
+    "type": "clean",
+    "quizWord": "both"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "if",
+    "pos": "連",
+    "chinese": "如果",
+    "type": "clean",
+    "quizWord": "if"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "anyone",
+    "pos": "代",
+    "chinese": "任何人(=anybody)",
+    "type": "clean",
+    "quizWord": "anyone"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "answer",
+    "pos": "名",
+    "chinese": "答案",
+    "type": "clean",
+    "quizWord": "answer"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "sign",
+    "pos": "名",
+    "chinese": "告示；標誌",
+    "type": "clean",
+    "quizWord": "sign"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "shape",
+    "pos": "名",
+    "chinese": "外形；形狀",
+    "type": "clean",
+    "quizWord": "shape"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "body",
+    "pos": "名",
+    "chinese": "身體",
+    "type": "clean",
+    "quizWord": "body"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "change",
+    "pos": "動",
+    "chinese": "改變",
+    "type": "clean",
+    "quizWord": "change"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "design",
+    "pos": "名:動",
+    "chinese": "設計",
+    "type": "clean",
+    "quizWord": "design"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "copy",
+    "pos": "動",
+    "chinese": "模仿；抄襲",
+    "type": "clean",
+    "quizWord": "copy"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "beak",
+    "pos": "名",
+    "chinese": "(鳥類的)嘴；喙",
+    "type": "clean",
+    "quizWord": "beak"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "head",
+    "pos": "名",
+    "chinese": "頭部",
+    "type": "clean",
+    "quizWord": "head"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "neck",
+    "pos": "名",
+    "chinese": "脖子",
+    "type": "clean",
+    "quizWord": "neck"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "hair",
+    "pos": "名",
+    "chinese": "頭髮",
+    "type": "clean",
+    "quizWord": "hair"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "sharp",
+    "pos": "形",
+    "chinese": "尖銳的",
+    "type": "clean",
+    "quizWord": "sharp"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "nail",
+    "pos": "名",
+    "chinese": "指甲",
+    "type": "clean",
+    "quizWord": "nail"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "lip",
+    "pos": "名",
+    "chinese": "嘴唇",
+    "type": "clean",
+    "quizWord": "lip"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "nose",
+    "pos": "名",
+    "chinese": "鼻子",
+    "type": "clean",
+    "quizWord": "nose"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "knee",
+    "pos": "名",
+    "chinese": "膝蓋",
+    "type": "clean",
+    "quizWord": "knee"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "leg",
+    "pos": "名",
+    "chinese": "腿",
+    "type": "clean",
+    "quizWord": "leg"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "plant",
+    "pos": "名",
+    "chinese": "植物",
+    "type": "clean",
+    "quizWord": "plant"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "nature",
+    "pos": "名",
+    "chinese": "大自然",
+    "type": "clean",
+    "quizWord": "nature"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "shark",
+    "pos": "名",
+    "chinese": "鯊魚",
+    "type": "clean",
+    "quizWord": "shark"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "reason",
+    "pos": "名",
+    "chinese": "原因",
+    "type": "clean",
+    "quizWord": "reason"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "skin",
+    "pos": "名",
+    "chinese": "皮膚",
+    "type": "clean",
+    "quizWord": "skin"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "scale",
+    "pos": "名",
+    "chinese": "魚鱗",
+    "type": "clean",
+    "quizWord": "scale"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "tooth",
+    "pos": "名",
+    "chinese": "牙齒",
+    "type": "clean",
+    "quizWord": "tooth"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "cover",
+    "pos": "動",
+    "chinese": "覆蓋",
+    "type": "clean",
+    "quizWord": "cover"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "tip",
+    "pos": "名",
+    "chinese": "頂端；尖端",
+    "type": "clean",
+    "quizWord": "tip"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "borrow",
+    "pos": "動",
+    "chinese": "借用",
+    "type": "clean",
+    "quizWord": "borrow"
+  },
+  {
+    "version": "南一版",
+    "lesson": 5,
+    "word": "swimsuit",
+    "pos": "名",
+    "chinese": "泳衣",
+    "type": "clean",
+    "quizWord": "swimsuit"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "key chain",
+    "pos": "名",
+    "chinese": "鑰匙圈",
+    "type": "phrase",
+    "quizWord": "key chain"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "vacation",
+    "pos": "名",
+    "chinese": "假期",
+    "type": "clean",
+    "quizWord": "vacation"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "crow",
+    "pos": "名",
+    "chinese": "烏鴉",
+    "type": "clean",
+    "quizWord": "crow"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "raven",
+    "pos": "名",
+    "chinese": "渡鴉",
+    "type": "clean",
+    "quizWord": "raven"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "belong to",
+    "pos": "片",
+    "chinese": "屬於",
+    "type": "phrase",
+    "quizWord": "belong to"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "pretty much",
+    "pos": "片",
+    "chinese": "幾乎完全地",
+    "type": "phrase",
+    "quizWord": "pretty much"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "history",
+    "pos": "名",
+    "chinese": "歷史",
+    "type": "clean",
+    "quizWord": "history"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "uniform",
+    "pos": "名",
+    "chinese": "制服",
+    "type": "clean",
+    "quizWord": "uniform"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "the public",
+    "pos": "名",
+    "chinese": "民眾",
+    "type": "phrase",
+    "quizWord": "the public"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "glad",
+    "pos": "形",
+    "chinese": "高興的",
+    "type": "clean",
+    "quizWord": "glad"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "perhaps",
+    "pos": "副",
+    "chinese": "也許",
+    "type": "clean",
+    "quizWord": "perhaps"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "all ears",
+    "pos": "片",
+    "chinese": "洗耳恭聽",
+    "type": "phrase",
+    "quizWord": "all ears"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "mail carrier",
+    "pos": "名",
+    "chinese": "郵差(=mailman)",
+    "type": "phrase",
+    "quizWord": "mail carrier"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "voice actor",
+    "pos": "名",
+    "chinese": "配音員",
+    "type": "phrase",
+    "quizWord": "voice actor"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "driver",
+    "pos": "名",
+    "chinese": "駕駛員",
+    "type": "clean",
+    "quizWord": "driver"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "engineer",
+    "pos": "名",
+    "chinese": "工程師",
+    "type": "clean",
+    "quizWord": "engineer"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "comic",
+    "pos": "名",
+    "chinese": "漫畫",
+    "type": "clean",
+    "quizWord": "comic"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "writer",
+    "pos": "名",
+    "chinese": "作家",
+    "type": "clean",
+    "quizWord": "writer"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "soldier",
+    "pos": "名",
+    "chinese": "士兵；軍人",
+    "type": "clean",
+    "quizWord": "soldier"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "dark",
+    "pos": "形",
+    "chinese": "深色的",
+    "type": "clean",
+    "quizWord": "dark"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "ugly",
+    "pos": "形",
+    "chinese": "醜的",
+    "type": "clean",
+    "quizWord": "ugly"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "however",
+    "pos": "副",
+    "chinese": "然而",
+    "type": "clean",
+    "quizWord": "however"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "legend",
+    "pos": "名",
+    "chinese": "傳說",
+    "type": "clean",
+    "quizWord": "legend"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "leave",
+    "pos": "動",
+    "chinese": "離開",
+    "type": "clean",
+    "quizWord": "leave"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "kingdom",
+    "pos": "名",
+    "chinese": "王國",
+    "type": "clean",
+    "quizWord": "kingdom"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "order",
+    "pos": "名",
+    "chinese": "命令",
+    "type": "clean",
+    "quizWord": "order"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "follow",
+    "pos": "動",
+    "chinese": "聽從；跟隨",
+    "type": "clean",
+    "quizWord": "follow"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "full-time",
+    "pos": "形",
+    "chinese": "全職的",
+    "type": "clean",
+    "quizWord": "full-time"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "keeper",
+    "pos": "名",
+    "chinese": "飼養者",
+    "type": "clean",
+    "quizWord": "keeper"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "quite",
+    "pos": "副",
+    "chinese": "很；相當",
+    "type": "clean",
+    "quizWord": "quite"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "healthy",
+    "pos": "形",
+    "chinese": "健康的",
+    "type": "clean",
+    "quizWord": "healthy"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "part",
+    "pos": "名",
+    "chinese": "一部份",
+    "type": "clean",
+    "quizWord": "part"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "safe and sound",
+    "pos": "片",
+    "chinese": "安然無恙",
+    "type": "phrase",
+    "quizWord": "safe and sound"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "be able to...",
+    "pos": "片",
+    "chinese": "能夠...",
+    "type": "phrase",
+    "quizWord": "be able to..."
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "ground",
+    "pos": "名",
+    "chinese": "地面",
+    "type": "clean",
+    "quizWord": "ground"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "stair",
+    "pos": "名",
+    "chinese": "樓梯",
+    "type": "clean",
+    "quizWord": "stair"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "high",
+    "pos": "形",
+    "chinese": "高的",
+    "type": "clean",
+    "quizWord": "high"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "wall",
+    "pos": "名",
+    "chinese": "牆壁",
+    "type": "clean",
+    "quizWord": "wall"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "protector",
+    "pos": "名",
+    "chinese": "保護者",
+    "type": "clean",
+    "quizWord": "protector"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "tradition",
+    "pos": "名",
+    "chinese": "傳統",
+    "type": "clean",
+    "quizWord": "tradition"
+  },
+  {
+    "version": "南一版",
+    "lesson": 6,
+    "word": "honor",
+    "pos": "名",
+    "chinese": "榮譽",
+    "type": "clean",
+    "quizWord": "honor"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "dress",
+    "pos": "名",
+    "chinese": "洋裝",
+    "type": "clean",
+    "quizWord": "dress"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "on sale",
+    "pos": "",
+    "chinese": "特價",
+    "type": "phrase",
+    "quizWord": "on sale"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "shirt",
+    "pos": "名",
+    "chinese": "襯衫",
+    "type": "clean",
+    "quizWord": "shirt"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "shorts",
+    "pos": "名",
+    "chinese": "短褲",
+    "type": "clean",
+    "quizWord": "shorts"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "jeans",
+    "pos": "名",
+    "chinese": "牛仔褲",
+    "type": "clean",
+    "quizWord": "jeans"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "sweater",
+    "pos": "名",
+    "chinese": "毛衣",
+    "type": "clean",
+    "quizWord": "sweater"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "jacket",
+    "pos": "名",
+    "chinese": "夾克",
+    "type": "clean",
+    "quizWord": "jacket"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "skirt",
+    "pos": "名",
+    "chinese": "裙子",
+    "type": "clean",
+    "quizWord": "skirt"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "ring",
+    "pos": "名",
+    "chinese": "戒指",
+    "type": "clean",
+    "quizWord": "ring"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "sock",
+    "pos": "名",
+    "chinese": "襪子",
+    "type": "clean",
+    "quizWord": "sock"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "cap",
+    "pos": "名",
+    "chinese": "(有帽舌的)帽子",
+    "type": "clean",
+    "quizWord": "cap"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "tie",
+    "pos": "名",
+    "chinese": "領帶",
+    "type": "clean",
+    "quizWord": "tie"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "belt",
+    "pos": "名",
+    "chinese": "腰帶",
+    "type": "clean",
+    "quizWord": "belt"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "pants",
+    "pos": "名",
+    "chinese": "長褲",
+    "type": "clean",
+    "quizWord": "pants"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "wallet",
+    "pos": "名",
+    "chinese": "錢包",
+    "type": "clean",
+    "quizWord": "wallet"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "a pair of",
+    "pos": "",
+    "chinese": "一件(褲子)；一雙(鞋)",
+    "type": "phrase",
+    "quizWord": "a pair of"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "glove",
+    "pos": "名",
+    "chinese": "手套",
+    "type": "clean",
+    "quizWord": "glove"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "try on",
+    "pos": "",
+    "chinese": "試穿",
+    "type": "phrase",
+    "quizWord": "try on"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "take/took off",
+    "pos": "",
+    "chinese": "脫下",
+    "type": "dual",
+    "quizWord": "take/took off"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "be full of",
+    "pos": "",
+    "chinese": "充滿",
+    "type": "phrase",
+    "quizWord": "be full of"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "fashionable",
+    "pos": "形",
+    "chinese": "流行的；時尚的",
+    "type": "clean",
+    "quizWord": "fashionable"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "as...as...",
+    "pos": "",
+    "chinese": "如同...一樣地",
+    "type": "phrase",
+    "quizWord": "as...as..."
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "already",
+    "pos": "副",
+    "chinese": "已經",
+    "type": "clean",
+    "quizWord": "already"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "fashion",
+    "pos": "名",
+    "chinese": "流行；時尚",
+    "type": "clean",
+    "quizWord": "fashion"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "medium",
+    "pos": "名:形",
+    "chinese": "中等尺寸的；中等的",
+    "type": "clean",
+    "quizWord": "medium"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "fitting room",
+    "pos": "名",
+    "chinese": "試衣間",
+    "type": "phrase",
+    "quizWord": "fitting room"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "agree",
+    "pos": "動",
+    "chinese": "同意",
+    "type": "clean",
+    "quizWord": "agree"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "comfortable",
+    "pos": "形",
+    "chinese": "舒服的",
+    "type": "clean",
+    "quizWord": "comfortable"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "light",
+    "pos": "形",
+    "chinese": "輕薄的",
+    "type": "clean",
+    "quizWord": "light"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "recycle",
+    "pos": "動",
+    "chinese": "回收",
+    "type": "clean",
+    "quizWord": "recycle"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "planet",
+    "pos": "名",
+    "chinese": "星球",
+    "type": "clean",
+    "quizWord": "planet"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "business",
+    "pos": "名",
+    "chinese": "公司；生意",
+    "type": "clean",
+    "quizWord": "business"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "customer",
+    "pos": "名",
+    "chinese": "顧客",
+    "type": "clean",
+    "quizWord": "customer"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "actually",
+    "pos": "副",
+    "chinese": "實際上",
+    "type": "clean",
+    "quizWord": "actually"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "owner",
+    "pos": "名",
+    "chinese": "所有人",
+    "type": "clean",
+    "quizWord": "owner"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "item",
+    "pos": "名",
+    "chinese": "項目",
+    "type": "clean",
+    "quizWord": "item"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "fresh",
+    "pos": "形",
+    "chinese": "新鮮的",
+    "type": "clean",
+    "quizWord": "fresh"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "mean/meant",
+    "pos": "動",
+    "chinese": "意旨",
+    "type": "dual",
+    "quizWord": "mean/meant"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "Earth",
+    "pos": "名",
+    "chinese": "地球",
+    "type": "clean",
+    "quizWord": "Earth"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 1,
+    "word": "turn(...)into...",
+    "pos": "",
+    "chinese": "(使)成為...",
+    "type": "phrase",
+    "quizWord": "turn(...)into..."
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "sofa",
+    "pos": "名",
+    "chinese": "沙發",
+    "type": "clean",
+    "quizWord": "sofa"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "lamp",
+    "pos": "名",
+    "chinese": "燈",
+    "type": "clean",
+    "quizWord": "lamp"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "piano",
+    "pos": "名",
+    "chinese": "鋼琴",
+    "type": "clean",
+    "quizWord": "piano"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "radio",
+    "pos": "名",
+    "chinese": "收音機",
+    "type": "clean",
+    "quizWord": "radio"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "washing machine",
+    "pos": "名",
+    "chinese": "洗衣機",
+    "type": "phrase",
+    "quizWord": "washing machine"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "refrigerator",
+    "pos": "名",
+    "chinese": "冰箱",
+    "type": "clean",
+    "quizWord": "refrigerator"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "violin",
+    "pos": "名",
+    "chinese": "小提琴",
+    "type": "clean",
+    "quizWord": "violin"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "bow",
+    "pos": "名",
+    "chinese": "(絃樂器的)弓",
+    "type": "clean",
+    "quizWord": "bow"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "tape",
+    "pos": "名",
+    "chinese": "膠帶",
+    "type": "clean",
+    "quizWord": "tape"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "concert",
+    "pos": "名",
+    "chinese": "演唱會；音樂會",
+    "type": "clean",
+    "quizWord": "concert"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "turn on",
+    "pos": "",
+    "chinese": "打開(電器)",
+    "type": "phrase",
+    "quizWord": "turn on"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "turn off",
+    "pos": "",
+    "chinese": "關上(電器)",
+    "type": "phrase",
+    "quizWord": "turn off"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "screen",
+    "pos": "名",
+    "chinese": "螢幕",
+    "type": "clean",
+    "quizWord": "screen"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "power bank",
+    "pos": "名",
+    "chinese": "行動電源",
+    "type": "phrase",
+    "quizWord": "power bank"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "out of order",
+    "pos": "",
+    "chinese": "故障的",
+    "type": "phrase",
+    "quizWord": "out of order"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "sweet",
+    "pos": "形",
+    "chinese": "甜的；甜蜜的",
+    "type": "clean",
+    "quizWord": "sweet"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "most",
+    "pos": "副:形",
+    "chinese": "最...；最多的",
+    "type": "clean",
+    "quizWord": "most"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "envelope",
+    "pos": "名",
+    "chinese": "信封",
+    "type": "clean",
+    "quizWord": "envelope"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "used to",
+    "pos": "",
+    "chinese": "過去經常",
+    "type": "phrase",
+    "quizWord": "used to"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "useful",
+    "pos": "形",
+    "chinese": "有用的",
+    "type": "clean",
+    "quizWord": "useful"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "fake",
+    "pos": "形",
+    "chinese": "假的",
+    "type": "clean",
+    "quizWord": "fake"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "deal",
+    "pos": "名:動",
+    "chinese": "交易",
+    "type": "clean",
+    "quizWord": "deal"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "scam",
+    "pos": "名",
+    "chinese": "詐騙",
+    "type": "clean",
+    "quizWord": "scam"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "strange",
+    "pos": "形",
+    "chinese": "奇怪的；陌生的",
+    "type": "clean",
+    "quizWord": "strange"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "joke",
+    "pos": "名",
+    "chinese": "玩笑；笑話",
+    "type": "clean",
+    "quizWord": "joke"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "seller",
+    "pos": "名",
+    "chinese": "賣家",
+    "type": "clean",
+    "quizWord": "seller"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "anymore",
+    "pos": "副",
+    "chinese": "再也(不)...",
+    "type": "clean",
+    "quizWord": "anymore"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "stop by",
+    "pos": "",
+    "chinese": "順道拜訪",
+    "type": "phrase",
+    "quizWord": "stop by"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "pick up",
+    "pos": "",
+    "chinese": "取(某物)",
+    "type": "phrase",
+    "quizWord": "pick up"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "trick",
+    "pos": "動:名",
+    "chinese": "欺騙；騙局",
+    "type": "clean",
+    "quizWord": "trick"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "billion",
+    "pos": "名",
+    "chinese": "十億",
+    "type": "clean",
+    "quizWord": "billion"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "part",
+    "pos": "名",
+    "chinese": "部分",
+    "type": "clean",
+    "quizWord": "part"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "tip",
+    "pos": "名",
+    "chinese": "提示；指導",
+    "type": "clean",
+    "quizWord": "tip"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "information",
+    "pos": "名",
+    "chinese": "資料；消息",
+    "type": "clean",
+    "quizWord": "information"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "stranger",
+    "pos": "名",
+    "chinese": "陌生人",
+    "type": "clean",
+    "quizWord": "stranger"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "secret",
+    "pos": "名:形",
+    "chinese": "秘密(的)",
+    "type": "clean",
+    "quizWord": "secret"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "word",
+    "pos": "名",
+    "chinese": "字",
+    "type": "clean",
+    "quizWord": "word"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "sentence",
+    "pos": "名",
+    "chinese": "句子",
+    "type": "clean",
+    "quizWord": "sentence"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 2,
+    "word": "tell/told...from...",
+    "pos": "",
+    "chinese": "區分...與...",
+    "type": "dual",
+    "quizWord": "tell/told...from..."
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "stay",
+    "pos": "動",
+    "chinese": "保持",
+    "type": "clean",
+    "quizWord": "stay"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "salad",
+    "pos": "名",
+    "chinese": "沙拉",
+    "type": "clean",
+    "quizWord": "salad"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "hamburger(burger)",
+    "pos": "名",
+    "chinese": "漢堡",
+    "type": "clean",
+    "quizWord": "hamburger"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "coffee",
+    "pos": "名",
+    "chinese": "咖啡",
+    "type": "clean",
+    "quizWord": "coffee"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "steak",
+    "pos": "名",
+    "chinese": "牛排",
+    "type": "clean",
+    "quizWord": "steak"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "French fries",
+    "pos": "名",
+    "chinese": "薯條",
+    "type": "phrase",
+    "quizWord": "French fries"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "fried chicken",
+    "pos": "名",
+    "chinese": "炸雞",
+    "type": "phrase",
+    "quizWord": "fried chicken"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "ham",
+    "pos": "名",
+    "chinese": "火腿",
+    "type": "clean",
+    "quizWord": "ham"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "cheese",
+    "pos": "名",
+    "chinese": "起司；乳酪",
+    "type": "clean",
+    "quizWord": "cheese"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "pork",
+    "pos": "名",
+    "chinese": "豬肉",
+    "type": "clean",
+    "quizWord": "pork"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "bean soup",
+    "pos": "名",
+    "chinese": "豆子湯",
+    "type": "phrase",
+    "quizWord": "bean soup"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "vegetable",
+    "pos": "名",
+    "chinese": "蔬菜",
+    "type": "clean",
+    "quizWord": "vegetable"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "pizza",
+    "pos": "名",
+    "chinese": "披薩",
+    "type": "clean",
+    "quizWord": "pizza"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "bun",
+    "pos": "名",
+    "chinese": "小圓麵包",
+    "type": "clean",
+    "quizWord": "bun"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "toast",
+    "pos": "名",
+    "chinese": "烤麵包片",
+    "type": "clean",
+    "quizWord": "toast"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "meat",
+    "pos": "名",
+    "chinese": "肉",
+    "type": "clean",
+    "quizWord": "meat"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "bread",
+    "pos": "名",
+    "chinese": "麵包",
+    "type": "clean",
+    "quizWord": "bread"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "wall",
+    "pos": "名",
+    "chinese": "牆壁",
+    "type": "clean",
+    "quizWord": "wall"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "meal",
+    "pos": "名",
+    "chinese": "一餐",
+    "type": "clean",
+    "quizWord": "meal"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "oil",
+    "pos": "名:動",
+    "chinese": "油；石油",
+    "type": "clean",
+    "quizWord": "oil"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "sound",
+    "pos": "名:動",
+    "chinese": "聽起來；聲音",
+    "type": "clean",
+    "quizWord": "sound"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "weight",
+    "pos": "名",
+    "chinese": "體重；重量",
+    "type": "clean",
+    "quizWord": "weight"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "smell",
+    "pos": "動:名",
+    "chinese": "聞起來；氣味",
+    "type": "clean",
+    "quizWord": "smell"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "taste",
+    "pos": "動:名",
+    "chinese": "嘗起來；味道",
+    "type": "clean",
+    "quizWord": "taste"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "dig/dug in",
+    "pos": "",
+    "chinese": "開始吃",
+    "type": "dual",
+    "quizWord": "dig/dug in"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "soon",
+    "pos": "副",
+    "chinese": "很快地",
+    "type": "clean",
+    "quizWord": "soon"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "order",
+    "pos": "名:動",
+    "chinese": "點餐；訂購",
+    "type": "clean",
+    "quizWord": "order"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "put/put on",
+    "pos": "",
+    "chinese": "增加(體重)",
+    "type": "dual",
+    "quizWord": "put/put on"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "get/got",
+    "pos": "動",
+    "chinese": "變得",
+    "type": "dual",
+    "quizWord": "get/got"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "notice",
+    "pos": "動",
+    "chinese": "注意；看到",
+    "type": "clean",
+    "quizWord": "notice"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "invite",
+    "pos": "動",
+    "chinese": "邀請",
+    "type": "clean",
+    "quizWord": "invite"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "besides",
+    "pos": "副",
+    "chinese": "此外；而且",
+    "type": "clean",
+    "quizWord": "besides"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "probably",
+    "pos": "副",
+    "chinese": "也許",
+    "type": "clean",
+    "quizWord": "probably"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "bite",
+    "pos": "副:動",
+    "chinese": "一口的量；咬",
+    "type": "clean",
+    "quizWord": "bite"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "stand/stood for",
+    "pos": "",
+    "chinese": "代表",
+    "type": "dual",
+    "quizWord": "stand/stood for"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "matter",
+    "pos": "動",
+    "chinese": "有關係",
+    "type": "clean",
+    "quizWord": "matter"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "sign",
+    "pos": "名",
+    "chinese": "招牌；標誌",
+    "type": "clean",
+    "quizWord": "sign"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 3,
+    "word": "friendly",
+    "pos": "形",
+    "chinese": "(某處)令人愉快的",
+    "type": "clean",
+    "quizWord": "friendly"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "be able to",
+    "pos": "",
+    "chinese": "能夠",
+    "type": "phrase",
+    "quizWord": "be able to"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "well",
+    "pos": "副",
+    "chinese": "很好地",
+    "type": "clean",
+    "quizWord": "well"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "loudly",
+    "pos": "副",
+    "chinese": "大聲地",
+    "type": "clean",
+    "quizWord": "loudly"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "slowly",
+    "pos": "副",
+    "chinese": "緩慢地",
+    "type": "clean",
+    "quizWord": "slowly"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "gently",
+    "pos": "副",
+    "chinese": "輕柔地",
+    "type": "clean",
+    "quizWord": "gently"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "smile",
+    "pos": "名:動",
+    "chinese": "微笑",
+    "type": "clean",
+    "quizWord": "smile"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "hop",
+    "pos": "動",
+    "chinese": "單腳跳躍",
+    "type": "clean",
+    "quizWord": "hop"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "dancing queen",
+    "pos": "",
+    "chinese": "舞后",
+    "type": "phrase",
+    "quizWord": "dancing queen"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "hard",
+    "pos": "副",
+    "chinese": "努力地",
+    "type": "clean",
+    "quizWord": "hard"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "trip",
+    "pos": "動",
+    "chinese": "絆倒",
+    "type": "clean",
+    "quizWord": "trip"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "experience",
+    "pos": "名",
+    "chinese": "經歷",
+    "type": "clean",
+    "quizWord": "experience"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "diary",
+    "pos": "名",
+    "chinese": "日記",
+    "type": "clean",
+    "quizWord": "diary"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "arrive",
+    "pos": "動",
+    "chinese": "抵達",
+    "type": "clean",
+    "quizWord": "arrive"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "area",
+    "pos": "名",
+    "chinese": "區域；地區",
+    "type": "clean",
+    "quizWord": "area"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "successfully",
+    "pos": "副",
+    "chinese": "成功地",
+    "type": "clean",
+    "quizWord": "successfully"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "pot",
+    "pos": "名",
+    "chinese": "鍋子；壺",
+    "type": "clean",
+    "quizWord": "pot"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "burn",
+    "pos": "動",
+    "chinese": "燒焦；燃燒",
+    "type": "clean",
+    "quizWord": "burn"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "unhappy",
+    "pos": "形",
+    "chinese": "不開心的",
+    "type": "clean",
+    "quizWord": "unhappy"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "hold/held",
+    "pos": "動",
+    "chinese": "舉辦；握住",
+    "type": "dual",
+    "quizWord": "hold/held"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "circle",
+    "pos": "名",
+    "chinese": "圓圈",
+    "type": "clean",
+    "quizWord": "circle"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "shy",
+    "pos": "形",
+    "chinese": "害羞的",
+    "type": "clean",
+    "quizWord": "shy"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "line",
+    "pos": "名",
+    "chinese": "列；線條",
+    "type": "clean",
+    "quizWord": "line"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "laugh",
+    "pos": "動",
+    "chinese": "笑",
+    "type": "clean",
+    "quizWord": "laugh"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "anyone(anybody)",
+    "pos": "代",
+    "chinese": "任何人",
+    "type": "clean",
+    "quizWord": "anyone"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "else",
+    "pos": "副",
+    "chinese": "其他",
+    "type": "clean",
+    "quizWord": "else"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "clap",
+    "pos": "副:動",
+    "chinese": "拍手；鼓掌",
+    "type": "clean",
+    "quizWord": "clap"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "cheer",
+    "pos": "動",
+    "chinese": "歡呼；鼓舞",
+    "type": "clean",
+    "quizWord": "cheer"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "festival",
+    "pos": "名",
+    "chinese": "節慶；節日",
+    "type": "clean",
+    "quizWord": "festival"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "heart",
+    "pos": "名",
+    "chinese": "愛心；內心",
+    "type": "clean",
+    "quizWord": "heart"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "shape",
+    "pos": "名",
+    "chinese": "形狀",
+    "type": "clean",
+    "quizWord": "shape"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "lucky",
+    "pos": "形",
+    "chinese": "幸運的",
+    "type": "clean",
+    "quizWord": "lucky"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 4,
+    "word": "earthquake",
+    "pos": "名",
+    "chinese": "地震",
+    "type": "clean",
+    "quizWord": "earthquake"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "cover",
+    "pos": "名:動",
+    "chinese": "遮蓋；封面",
+    "type": "clean",
+    "quizWord": "cover"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "typhoon",
+    "pos": "名",
+    "chinese": "颱風",
+    "type": "clean",
+    "quizWord": "typhoon"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "candle",
+    "pos": "名",
+    "chinese": "蠟燭",
+    "type": "clean",
+    "quizWord": "candle"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "smoke alarm",
+    "pos": "名",
+    "chinese": "煙霧警報器",
+    "type": "phrase",
+    "quizWord": "smoke alarm"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "elevator",
+    "pos": "名",
+    "chinese": "電梯",
+    "type": "clean",
+    "quizWord": "elevator"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "raise",
+    "pos": "動",
+    "chinese": "舉起；增加",
+    "type": "clean",
+    "quizWord": "raise"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "pull",
+    "pos": "動",
+    "chinese": "拉；抽出",
+    "type": "clean",
+    "quizWord": "pull"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "push",
+    "pos": "動",
+    "chinese": "推；按",
+    "type": "clean",
+    "quizWord": "push"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "rich",
+    "pos": "形",
+    "chinese": "富有的；豐富的",
+    "type": "clean",
+    "quizWord": "rich"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "deep",
+    "pos": "形",
+    "chinese": "深的",
+    "type": "clean",
+    "quizWord": "deep"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "hold/held on",
+    "pos": "",
+    "chinese": "緊緊抓住；堅持下去",
+    "type": "dual",
+    "quizWord": "hold/held on"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "abroad",
+    "pos": "副",
+    "chinese": "在國外",
+    "type": "clean",
+    "quizWord": "abroad"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "dangerous",
+    "pos": "形",
+    "chinese": "危險的",
+    "type": "clean",
+    "quizWord": "dangerous"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "moment",
+    "pos": "名",
+    "chinese": "時刻",
+    "type": "clean",
+    "quizWord": "moment"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "hear/heard",
+    "pos": "動",
+    "chinese": "聽到",
+    "type": "dual",
+    "quizWord": "hear/heard"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "someone",
+    "pos": "代",
+    "chinese": "某人",
+    "type": "clean",
+    "quizWord": "someone"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "scary",
+    "pos": "形",
+    "chinese": "嚇人的",
+    "type": "clean",
+    "quizWord": "scary"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "fall/fell off",
+    "pos": "",
+    "chinese": "(從...)掉下",
+    "type": "dual",
+    "quizWord": "fall/fell off"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "cut/cut",
+    "pos": "動",
+    "chinese": "割傷；切",
+    "type": "dual",
+    "quizWord": "cut/cut"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "nothing",
+    "pos": "代",
+    "chinese": "沒有事情；沒有東西",
+    "type": "clean",
+    "quizWord": "nothing"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "scene",
+    "pos": "名",
+    "chinese": "場景",
+    "type": "clean",
+    "quizWord": "scene"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "leading",
+    "pos": "形",
+    "chinese": "主要的",
+    "type": "clean",
+    "quizWord": "leading"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "real-life",
+    "pos": "形",
+    "chinese": "真實生活中的",
+    "type": "clean",
+    "quizWord": "real-life"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "ever",
+    "pos": "副",
+    "chinese": "在任何時候",
+    "type": "clean",
+    "quizWord": "ever"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "go/went out",
+    "pos": "",
+    "chinese": "(燈、火)熄滅",
+    "type": "dual",
+    "quizWord": "go/went out"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "lesson",
+    "pos": "名",
+    "chinese": "教訓；(一節)課",
+    "type": "clean",
+    "quizWord": "lesson"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "land",
+    "pos": "名:動",
+    "chinese": "陸地；降落",
+    "type": "clean",
+    "quizWord": "land"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "several",
+    "pos": "形",
+    "chinese": "數個的",
+    "type": "clean",
+    "quizWord": "several"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "grow/grew",
+    "pos": "動",
+    "chinese": "成長；增加",
+    "type": "dual",
+    "quizWord": "grow/grew"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "dozen",
+    "pos": "名",
+    "chinese": "一打",
+    "type": "clean",
+    "quizWord": "dozen"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "gray",
+    "pos": "形",
+    "chinese": "灰色的",
+    "type": "clean",
+    "quizWord": "gray"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "window",
+    "pos": "名",
+    "chinese": "窗戶",
+    "type": "clean",
+    "quizWord": "window"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "sight",
+    "pos": "名",
+    "chinese": "景象",
+    "type": "clean",
+    "quizWord": "sight"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "surprise",
+    "pos": "名:動",
+    "chinese": "驚訝；使驚訝",
+    "type": "clean",
+    "quizWord": "surprise"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "flood",
+    "pos": "名:動",
+    "chinese": "淹沒；洪水",
+    "type": "clean",
+    "quizWord": "flood"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "apartment",
+    "pos": "名",
+    "chinese": "公寓",
+    "type": "clean",
+    "quizWord": "apartment"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "except",
+    "pos": "介",
+    "chinese": "除了...之外",
+    "type": "clean",
+    "quizWord": "except"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "cookie",
+    "pos": "名",
+    "chinese": "餅乾",
+    "type": "clean",
+    "quizWord": "cookie"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "drawer",
+    "pos": "名",
+    "chinese": "抽屜",
+    "type": "clean",
+    "quizWord": "drawer"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "quite",
+    "pos": "副",
+    "chinese": "相當地",
+    "type": "clean",
+    "quizWord": "quite"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "angry",
+    "pos": "形",
+    "chinese": "生氣的",
+    "type": "clean",
+    "quizWord": "angry"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 5,
+    "word": "fool",
+    "pos": "名:動",
+    "chinese": "傻瓜；愚弄",
+    "type": "clean",
+    "quizWord": "fool"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "straw",
+    "pos": "名",
+    "chinese": "吸管；稻草",
+    "type": "clean",
+    "quizWord": "straw"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "carry",
+    "pos": "動",
+    "chinese": "攜帶",
+    "type": "clean",
+    "quizWord": "carry"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "metal",
+    "pos": "名",
+    "chinese": "金屬",
+    "type": "clean",
+    "quizWord": "metal"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "spoon",
+    "pos": "名",
+    "chinese": "湯匙",
+    "type": "clean",
+    "quizWord": "spoon"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "chopsticks",
+    "pos": "名",
+    "chinese": "筷子",
+    "type": "clean",
+    "quizWord": "chopsticks"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "paper",
+    "pos": "名",
+    "chinese": "紙",
+    "type": "clean",
+    "quizWord": "paper"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "stair",
+    "pos": "名",
+    "chinese": "樓梯",
+    "type": "clean",
+    "quizWord": "stair"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "instead of",
+    "pos": "介",
+    "chinese": "作為...替代",
+    "type": "phrase",
+    "quizWord": "instead of"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "jog",
+    "pos": "動",
+    "chinese": "慢跑",
+    "type": "clean",
+    "quizWord": "jog"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "newspaper",
+    "pos": "名",
+    "chinese": "報紙",
+    "type": "clean",
+    "quizWord": "newspaper"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "postcard",
+    "pos": "名",
+    "chinese": "明信片",
+    "type": "clean",
+    "quizWord": "postcard"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "businessman",
+    "pos": "名",
+    "chinese": "商人",
+    "type": "clean",
+    "quizWord": "businessman"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "workbook",
+    "pos": "名",
+    "chinese": "習作",
+    "type": "clean",
+    "quizWord": "workbook"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "bother",
+    "pos": "動",
+    "chinese": "費心",
+    "type": "clean",
+    "quizWord": "bother"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "end up",
+    "pos": "",
+    "chinese": "最後成為",
+    "type": "phrase",
+    "quizWord": "end up"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "ocean",
+    "pos": "名",
+    "chinese": "海洋",
+    "type": "clean",
+    "quizWord": "ocean"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "turtle",
+    "pos": "名",
+    "chinese": "海龜",
+    "type": "clean",
+    "quizWord": "turtle"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "perhaps",
+    "pos": "副",
+    "chinese": "也許",
+    "type": "clean",
+    "quizWord": "perhaps"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "if",
+    "pos": "連",
+    "chinese": "如果",
+    "type": "clean",
+    "quizWord": "if"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "take/took action",
+    "pos": "",
+    "chinese": "採取行動",
+    "type": "dual",
+    "quizWord": "take/took action"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "though/although",
+    "pos": "連",
+    "chinese": "雖然",
+    "type": "dual",
+    "quizWord": "though/although"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "break/broke down",
+    "pos": "",
+    "chinese": "分解",
+    "type": "dual",
+    "quizWord": "break/broke down"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "correct",
+    "pos": "形:動",
+    "chinese": "正確的；更正",
+    "type": "clean",
+    "quizWord": "correct"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "feed/fed",
+    "pos": "動",
+    "chinese": "餵",
+    "type": "dual",
+    "quizWord": "feed/fed"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "baby",
+    "pos": "名",
+    "chinese": "幼鳥；嬰兒",
+    "type": "clean",
+    "quizWord": "baby"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "jellyfish",
+    "pos": "名",
+    "chinese": "水母",
+    "type": "clean",
+    "quizWord": "jellyfish"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "die",
+    "pos": "動",
+    "chinese": "死亡",
+    "type": "clean",
+    "quizWord": "die"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "crazy about",
+    "pos": "",
+    "chinese": "非常喜歡...",
+    "type": "phrase",
+    "quizWord": "crazy about"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "service",
+    "pos": "名",
+    "chinese": "服務",
+    "type": "clean",
+    "quizWord": "service"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "excellent",
+    "pos": "形",
+    "chinese": "優秀的",
+    "type": "clean",
+    "quizWord": "excellent"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "wish",
+    "pos": "名:動",
+    "chinese": "願望；希望",
+    "type": "clean",
+    "quizWord": "wish"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "garbage",
+    "pos": "名",
+    "chinese": "垃圾",
+    "type": "clean",
+    "quizWord": "garbage"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "somewhere",
+    "pos": "副",
+    "chinese": "在某處",
+    "type": "clean",
+    "quizWord": "somewhere"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "enter",
+    "pos": "動",
+    "chinese": "進入；輸入",
+    "type": "clean",
+    "quizWord": "enter"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "knife",
+    "pos": "名",
+    "chinese": "刀子",
+    "type": "clean",
+    "quizWord": "knife"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "fork",
+    "pos": "名",
+    "chinese": "叉子",
+    "type": "clean",
+    "quizWord": "fork"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "choice",
+    "pos": "名",
+    "chinese": "選擇",
+    "type": "clean",
+    "quizWord": "choice"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "possible",
+    "pos": "形",
+    "chinese": "可能的",
+    "type": "clean",
+    "quizWord": "possible"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "no longer",
+    "pos": "",
+    "chinese": "不再",
+    "type": "phrase",
+    "quizWord": "no longer"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "gladly",
+    "pos": "副",
+    "chinese": "樂意地",
+    "type": "clean",
+    "quizWord": "gladly"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "keep in mind",
+    "pos": "片",
+    "chinese": "記住",
+    "type": "phrase",
+    "quizWord": "keep in mind"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "matter",
+    "pos": "動",
+    "chinese": "要緊；重要",
+    "type": "clean",
+    "quizWord": "matter"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "picture",
+    "pos": "動",
+    "chinese": "想像",
+    "type": "clean",
+    "quizWord": "picture"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "as for",
+    "pos": "片",
+    "chinese": "至於",
+    "type": "phrase",
+    "quizWord": "as for"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "to the full",
+    "pos": "片",
+    "chinese": "盡可能",
+    "type": "phrase",
+    "quizWord": "to the full"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "fair",
+    "pos": "名",
+    "chinese": "展覽會",
+    "type": "clean",
+    "quizWord": "fair"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "stereotype",
+    "pos": "名:動",
+    "chinese": "刻板印象；對...有偏見",
+    "type": "clean",
+    "quizWord": "stereotype"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "gender",
+    "pos": "名",
+    "chinese": "性別",
+    "type": "clean",
+    "quizWord": "gender"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "self",
+    "pos": "名",
+    "chinese": "自我",
+    "type": "clean",
+    "quizWord": "self"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "talent",
+    "pos": "名",
+    "chinese": "人才；天分",
+    "type": "clean",
+    "quizWord": "talent"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "designer",
+    "pos": "名",
+    "chinese": "設計師",
+    "type": "clean",
+    "quizWord": "designer"
+  },
+  {
+    "version": "康軒版",
+    "lesson": 6,
+    "word": "record",
+    "pos": "名",
+    "chinese": "紀錄；記載",
+    "type": "clean",
+    "quizWord": "record"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "foreign",
+    "pos": "形",
+    "chinese": "外國的",
+    "type": "clean",
+    "quizWord": "foreign"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "than",
+    "pos": "連:介",
+    "chinese": "比",
+    "type": "clean",
+    "quizWord": "than"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "friendly",
+    "pos": "形",
+    "chinese": "友善的",
+    "type": "clean",
+    "quizWord": "friendly"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "convenient",
+    "pos": "形",
+    "chinese": "便利的",
+    "type": "clean",
+    "quizWord": "convenient"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "pork",
+    "pos": "名",
+    "chinese": "豬肉",
+    "type": "clean",
+    "quizWord": "pork"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "beef",
+    "pos": "名",
+    "chinese": "牛肉",
+    "type": "clean",
+    "quizWord": "beef"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "delicious",
+    "pos": "形",
+    "chinese": "美味的",
+    "type": "clean",
+    "quizWord": "delicious"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "feel",
+    "pos": "動",
+    "chinese": "感到",
+    "type": "clean",
+    "quizWord": "feel"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "steak",
+    "pos": "名",
+    "chinese": "牛排；肉排",
+    "type": "clean",
+    "quizWord": "steak"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "menu",
+    "pos": "名",
+    "chinese": "菜單",
+    "type": "clean",
+    "quizWord": "menu"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "waitress",
+    "pos": "名",
+    "chinese": "女服務生",
+    "type": "clean",
+    "quizWord": "waitress"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "ham",
+    "pos": "名",
+    "chinese": "火腿",
+    "type": "clean",
+    "quizWord": "ham"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "butter",
+    "pos": "名",
+    "chinese": "奶油",
+    "type": "clean",
+    "quizWord": "butter"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "medium",
+    "pos": "形",
+    "chinese": "五分熟；中等的",
+    "type": "clean",
+    "quizWord": "medium"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "meat",
+    "pos": "名",
+    "chinese": "肉",
+    "type": "clean",
+    "quizWord": "meat"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "smell",
+    "pos": "動:名",
+    "chinese": "聞起來；氣味",
+    "type": "clean",
+    "quizWord": "smell"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "taste",
+    "pos": "動:名",
+    "chinese": "嘗起來；味道",
+    "type": "clean",
+    "quizWord": "taste"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "as...as...",
+    "pos": "片",
+    "chinese": "如同...一樣...",
+    "type": "phrase",
+    "quizWord": "as...as..."
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "fries",
+    "pos": "名",
+    "chinese": "薯條(=French fries)",
+    "type": "clean",
+    "quizWord": "fries"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "knife",
+    "pos": "名",
+    "chinese": "刀子",
+    "type": "clean",
+    "quizWord": "knife"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "fork",
+    "pos": "名",
+    "chinese": "叉子",
+    "type": "clean",
+    "quizWord": "fork"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "noodle",
+    "pos": "名",
+    "chinese": "麵",
+    "type": "clean",
+    "quizWord": "noodle"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "chopsticks",
+    "pos": "名",
+    "chinese": "筷子",
+    "type": "clean",
+    "quizWord": "chopsticks"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "spoon",
+    "pos": "名",
+    "chinese": "湯匙",
+    "type": "clean",
+    "quizWord": "spoon"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "fried chicken",
+    "pos": "名",
+    "chinese": "炸雞",
+    "type": "phrase",
+    "quizWord": "fried chicken"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "waiter",
+    "pos": "名",
+    "chinese": "男服務生",
+    "type": "clean",
+    "quizWord": "waiter"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "strawberry",
+    "pos": "名",
+    "chinese": "草莓",
+    "type": "clean",
+    "quizWord": "strawberry"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "bun",
+    "pos": "名",
+    "chinese": "小圓麵包",
+    "type": "clean",
+    "quizWord": "bun"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "earth",
+    "pos": "名",
+    "chinese": "地球",
+    "type": "clean",
+    "quizWord": "earth"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "bring",
+    "pos": "動",
+    "chinese": "帶來；攜帶",
+    "type": "clean",
+    "quizWord": "bring"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "smile",
+    "pos": "動:名",
+    "chinese": "微笑",
+    "type": "clean",
+    "quizWord": "smile"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "land",
+    "pos": "動:名",
+    "chinese": "陸地；落地",
+    "type": "clean",
+    "quizWord": "land"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "rock",
+    "pos": "名",
+    "chinese": "岩石",
+    "type": "clean",
+    "quizWord": "rock"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "shape",
+    "pos": "名",
+    "chinese": "形狀",
+    "type": "clean",
+    "quizWord": "shape"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "clear",
+    "pos": "形",
+    "chinese": "晴朗的；清楚的",
+    "type": "clean",
+    "quizWord": "clear"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "comfortable",
+    "pos": "形",
+    "chinese": "舒適的；自在的",
+    "type": "clean",
+    "quizWord": "comfortable"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "fill",
+    "pos": "動",
+    "chinese": "充滿；裝滿",
+    "type": "clean",
+    "quizWord": "fill"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "pack",
+    "pos": "動",
+    "chinese": "打包；塞進",
+    "type": "clean",
+    "quizWord": "pack"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "get around",
+    "pos": "片",
+    "chinese": "各處旅行",
+    "type": "phrase",
+    "quizWord": "get around"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "dish",
+    "pos": "名",
+    "chinese": "菜餚",
+    "type": "clean",
+    "quizWord": "dish"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "more",
+    "pos": "副:形",
+    "chinese": "更...",
+    "type": "clean",
+    "quizWord": "more"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "get",
+    "pos": "動",
+    "chinese": "變成",
+    "type": "clean",
+    "quizWord": "get"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "sound",
+    "pos": "動",
+    "chinese": "聽起來",
+    "type": "clean",
+    "quizWord": "sound"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "top",
+    "pos": "名:形",
+    "chinese": "頂部(的)",
+    "type": "clean",
+    "quizWord": "top"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "hot-air balloon",
+    "pos": "名",
+    "chinese": "熱氣球",
+    "type": "phrase",
+    "quizWord": "hot-air balloon"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "view",
+    "pos": "名",
+    "chinese": "景色",
+    "type": "clean",
+    "quizWord": "view"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 1,
+    "word": "grass",
+    "pos": "名",
+    "chinese": "草地",
+    "type": "clean",
+    "quizWord": "grass"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "red fire ant",
+    "pos": "名",
+    "chinese": "紅火蟻",
+    "type": "phrase",
+    "quizWord": "red fire ant"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "dangerous",
+    "pos": "形",
+    "chinese": "危險的",
+    "type": "clean",
+    "quizWord": "dangerous"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "bite",
+    "pos": "名:動",
+    "chinese": "咬；咬(傷)",
+    "type": "clean",
+    "quizWord": "bite"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "death",
+    "pos": "名",
+    "chinese": "死亡",
+    "type": "clean",
+    "quizWord": "death"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "kick",
+    "pos": "動",
+    "chinese": "踢",
+    "type": "clean",
+    "quizWord": "kick"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "themselves",
+    "pos": "代",
+    "chinese": "他們自己",
+    "type": "clean",
+    "quizWord": "themselves"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "kill",
+    "pos": "動",
+    "chinese": "殺死",
+    "type": "clean",
+    "quizWord": "kill"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "stay away from",
+    "pos": "片",
+    "chinese": "遠離",
+    "type": "phrase",
+    "quizWord": "stay away from"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "agree",
+    "pos": "動",
+    "chinese": "同意",
+    "type": "clean",
+    "quizWord": "agree"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "circle",
+    "pos": "名:動",
+    "chinese": "圓圈；畫圈",
+    "type": "clean",
+    "quizWord": "circle"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "myself",
+    "pos": "代",
+    "chinese": "我自己",
+    "type": "clean",
+    "quizWord": "myself"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "snake",
+    "pos": "名",
+    "chinese": "蛇",
+    "type": "clean",
+    "quizWord": "snake"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "wet",
+    "pos": "形",
+    "chinese": "潮濕的",
+    "type": "clean",
+    "quizWord": "wet"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "scary",
+    "pos": "形",
+    "chinese": "令人害怕的",
+    "type": "clean",
+    "quizWord": "scary"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "spider",
+    "pos": "名",
+    "chinese": "蜘蛛",
+    "type": "clean",
+    "quizWord": "spider"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "deep",
+    "pos": "形",
+    "chinese": "深的",
+    "type": "clean",
+    "quizWord": "deep"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "true",
+    "pos": "形",
+    "chinese": "真實的",
+    "type": "clean",
+    "quizWord": "true"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "gram",
+    "pos": "名",
+    "chinese": "公克",
+    "type": "clean",
+    "quizWord": "gram"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "insect",
+    "pos": "名",
+    "chinese": "昆蟲",
+    "type": "clean",
+    "quizWord": "insect"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "bee",
+    "pos": "名",
+    "chinese": "蜜蜂",
+    "type": "clean",
+    "quizWord": "bee"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "inch",
+    "pos": "名",
+    "chinese": "吋",
+    "type": "clean",
+    "quizWord": "inch"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "wide",
+    "pos": "形",
+    "chinese": "寬的",
+    "type": "clean",
+    "quizWord": "wide"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "kilogram",
+    "pos": "名",
+    "chinese": "公斤",
+    "type": "clean",
+    "quizWord": "kilogram"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "nature",
+    "pos": "名",
+    "chinese": "大自然",
+    "type": "clean",
+    "quizWord": "nature"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "below",
+    "pos": "介:副",
+    "chinese": "在...之下；在下面",
+    "type": "clean",
+    "quizWord": "below"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "sea level",
+    "pos": "名",
+    "chinese": "海平面",
+    "type": "phrase",
+    "quizWord": "sea level"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "mile",
+    "pos": "名",
+    "chinese": "英里",
+    "type": "clean",
+    "quizWord": "mile"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "smart",
+    "pos": "形",
+    "chinese": "聰明的",
+    "type": "clean",
+    "quizWord": "smart"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "traffic",
+    "pos": "名",
+    "chinese": "交通；車流(量)",
+    "type": "clean",
+    "quizWord": "traffic"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "appear",
+    "pos": "動",
+    "chinese": "似乎",
+    "type": "clean",
+    "quizWord": "appear"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "air",
+    "pos": "名",
+    "chinese": "空中；空氣",
+    "type": "clean",
+    "quizWord": "air"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "far",
+    "pos": "副:形",
+    "chinese": "遠",
+    "type": "clean",
+    "quizWord": "far"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "slow",
+    "pos": "副:動",
+    "chinese": "放慢；慢的；慢地",
+    "type": "clean",
+    "quizWord": "slow"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "light",
+    "pos": "名:動",
+    "chinese": "燈；光；點亮",
+    "type": "clean",
+    "quizWord": "light"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "cross",
+    "pos": "動",
+    "chinese": "穿越",
+    "type": "clean",
+    "quizWord": "cross"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "most",
+    "pos": "副:形",
+    "chinese": "最...；最多的",
+    "type": "clean",
+    "quizWord": "most"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "give...a hand",
+    "pos": "片",
+    "chinese": "幫助...",
+    "type": "phrase",
+    "quizWord": "give...a hand"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "feet",
+    "pos": "名",
+    "chinese": "英尺",
+    "type": "clean",
+    "quizWord": "feet"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "cause",
+    "pos": "動",
+    "chinese": "造成",
+    "type": "clean",
+    "quizWord": "cause"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "nest",
+    "pos": "名",
+    "chinese": "巢；窩",
+    "type": "clean",
+    "quizWord": "nest"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "protect",
+    "pos": "動",
+    "chinese": "保護",
+    "type": "clean",
+    "quizWord": "protect"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "outdoor",
+    "pos": "形",
+    "chinese": "戶外的",
+    "type": "clean",
+    "quizWord": "outdoor"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "safety",
+    "pos": "名",
+    "chinese": "安全",
+    "type": "clean",
+    "quizWord": "safety"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "weigh",
+    "pos": "動",
+    "chinese": "重達...",
+    "type": "clean",
+    "quizWord": "weigh"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "meter",
+    "pos": "名",
+    "chinese": "公尺",
+    "type": "clean",
+    "quizWord": "meter"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "accident",
+    "pos": "名",
+    "chinese": "意外",
+    "type": "clean",
+    "quizWord": "accident"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "crosswalk",
+    "pos": "名",
+    "chinese": "行人穿越道",
+    "type": "clean",
+    "quizWord": "crosswalk"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 2,
+    "word": "float",
+    "pos": "動",
+    "chinese": "漂浮",
+    "type": "clean",
+    "quizWord": "float"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "loudly",
+    "pos": "副",
+    "chinese": "大聲地",
+    "type": "clean",
+    "quizWord": "loudly"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "hard",
+    "pos": "副:形",
+    "chinese": "努力地；困難地",
+    "type": "clean",
+    "quizWord": "hard"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "well",
+    "pos": "副:形",
+    "chinese": "好地",
+    "type": "clean",
+    "quizWord": "well"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "share",
+    "pos": "動",
+    "chinese": "分享",
+    "type": "clean",
+    "quizWord": "share"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "weak",
+    "pos": "形",
+    "chinese": "虛弱的",
+    "type": "clean",
+    "quizWord": "weak"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "hen",
+    "pos": "名",
+    "chinese": "母雞",
+    "type": "clean",
+    "quizWord": "hen"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "dirty",
+    "pos": "形",
+    "chinese": "髒的",
+    "type": "clean",
+    "quizWord": "dirty"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "bow",
+    "pos": "名:動",
+    "chinese": "鞠躬",
+    "type": "clean",
+    "quizWord": "bow"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "without",
+    "pos": "介",
+    "chinese": "沒有；無",
+    "type": "clean",
+    "quizWord": "without"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "quickly",
+    "pos": "副",
+    "chinese": "快地",
+    "type": "clean",
+    "quizWord": "quickly"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "web page",
+    "pos": "名",
+    "chinese": "網頁",
+    "type": "phrase",
+    "quizWord": "web page"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "service",
+    "pos": "名",
+    "chinese": "服務",
+    "type": "clean",
+    "quizWord": "service"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "wise",
+    "pos": "形",
+    "chinese": "明智的",
+    "type": "clean",
+    "quizWord": "wise"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "cheer",
+    "pos": "名:動",
+    "chinese": "歡呼",
+    "type": "clean",
+    "quizWord": "cheer"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "celebrate",
+    "pos": "動",
+    "chinese": "慶祝",
+    "type": "clean",
+    "quizWord": "celebrate"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "grape",
+    "pos": "名",
+    "chinese": "葡萄",
+    "type": "clean",
+    "quizWord": "grape"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "goose",
+    "pos": "名",
+    "chinese": "鵝",
+    "type": "clean",
+    "quizWord": "goose"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "duck",
+    "pos": "名",
+    "chinese": "鴨",
+    "type": "clean",
+    "quizWord": "duck"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "goat",
+    "pos": "名",
+    "chinese": "山羊",
+    "type": "clean",
+    "quizWord": "goat"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "sheep",
+    "pos": "名",
+    "chinese": "綿羊",
+    "type": "clean",
+    "quizWord": "sheep"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "peach",
+    "pos": "名",
+    "chinese": "桃子",
+    "type": "clean",
+    "quizWord": "peach"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "turtle",
+    "pos": "名",
+    "chinese": "烏龜",
+    "type": "clean",
+    "quizWord": "turtle"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "pear",
+    "pos": "名",
+    "chinese": "梨子",
+    "type": "clean",
+    "quizWord": "pear"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "papaya",
+    "pos": "名",
+    "chinese": "木瓜",
+    "type": "clean",
+    "quizWord": "papaya"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "vegetable",
+    "pos": "名",
+    "chinese": "蔬菜",
+    "type": "clean",
+    "quizWord": "vegetable"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "tomato",
+    "pos": "名",
+    "chinese": "番茄",
+    "type": "clean",
+    "quizWord": "tomato"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "watermelon",
+    "pos": "名",
+    "chinese": "西瓜",
+    "type": "clean",
+    "quizWord": "watermelon"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "American",
+    "pos": "名",
+    "chinese": "美國人",
+    "type": "clean",
+    "quizWord": "American"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "million",
+    "pos": "名",
+    "chinese": "百萬",
+    "type": "clean",
+    "quizWord": "million"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "pound",
+    "pos": "名",
+    "chinese": "磅",
+    "type": "clean",
+    "quizWord": "pound"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "pick",
+    "pos": "動",
+    "chinese": "採摘；撿拾",
+    "type": "clean",
+    "quizWord": "pick"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "bean",
+    "pos": "名",
+    "chinese": "豆",
+    "type": "clean",
+    "quizWord": "bean"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "cent",
+    "pos": "名",
+    "chinese": "美分",
+    "type": "clean",
+    "quizWord": "cent"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "chance",
+    "pos": "名",
+    "chinese": "機會",
+    "type": "clean",
+    "quizWord": "chance"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "choose",
+    "pos": "動",
+    "chinese": "選擇",
+    "type": "clean",
+    "quizWord": "choose"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "mean",
+    "pos": "形",
+    "chinese": "刻薄的；兇惡的",
+    "type": "clean",
+    "quizWord": "mean"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "make",
+    "pos": "動",
+    "chinese": "要...做...；使...",
+    "type": "clean",
+    "quizWord": "make"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "break",
+    "pos": "名",
+    "chinese": "休息",
+    "type": "clean",
+    "quizWord": "break"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "over",
+    "pos": "介",
+    "chinese": "超過",
+    "type": "clean",
+    "quizWord": "over"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "treat",
+    "pos": "動",
+    "chinese": "對待",
+    "type": "clean",
+    "quizWord": "treat"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "have",
+    "pos": "動",
+    "chinese": "使...",
+    "type": "clean",
+    "quizWord": "have"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "owner",
+    "pos": "名",
+    "chinese": "擁有者；主人",
+    "type": "clean",
+    "quizWord": "owner"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "labor",
+    "pos": "名",
+    "chinese": "勞工",
+    "type": "clean",
+    "quizWord": "labor"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "information",
+    "pos": "名",
+    "chinese": "資訊",
+    "type": "clean",
+    "quizWord": "information"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "cocoa",
+    "pos": "名",
+    "chinese": "可可",
+    "type": "clean",
+    "quizWord": "cocoa"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "alone",
+    "pos": "副",
+    "chinese": "單獨地",
+    "type": "clean",
+    "quizWord": "alone"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 3,
+    "word": "bitter",
+    "pos": "形",
+    "chinese": "苦的",
+    "type": "clean",
+    "quizWord": "bitter"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "typhoon",
+    "pos": "名",
+    "chinese": "颱風",
+    "type": "clean",
+    "quizWord": "typhoon"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "blow",
+    "pos": "動",
+    "chinese": "吹",
+    "type": "clean",
+    "quizWord": "blow"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "rose",
+    "pos": "名",
+    "chinese": "玫瑰花",
+    "type": "clean",
+    "quizWord": "rose"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "balcony",
+    "pos": "名",
+    "chinese": "陽台",
+    "type": "clean",
+    "quizWord": "balcony"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "must",
+    "pos": "助",
+    "chinese": "必須；一定",
+    "type": "clean",
+    "quizWord": "must"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "prepare",
+    "pos": "動",
+    "chinese": "準備",
+    "type": "clean",
+    "quizWord": "prepare"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "should",
+    "pos": "助",
+    "chinese": "應該",
+    "type": "clean",
+    "quizWord": "should"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "candle",
+    "pos": "名",
+    "chinese": "蠟燭",
+    "type": "clean",
+    "quizWord": "candle"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "radio",
+    "pos": "名",
+    "chinese": "收音機；廣播",
+    "type": "clean",
+    "quizWord": "radio"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "news",
+    "pos": "名",
+    "chinese": "新聞；消息",
+    "type": "clean",
+    "quizWord": "news"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "if",
+    "pos": "連",
+    "chinese": "如果",
+    "type": "clean",
+    "quizWord": "if"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "star",
+    "pos": "名",
+    "chinese": "星星",
+    "type": "clean",
+    "quizWord": "star"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "shine",
+    "pos": "動",
+    "chinese": "閃耀；照耀",
+    "type": "clean",
+    "quizWord": "shine"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "giant",
+    "pos": "形",
+    "chinese": "巨大的",
+    "type": "clean",
+    "quizWord": "giant"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "wave",
+    "pos": "名",
+    "chinese": "浪",
+    "type": "clean",
+    "quizWord": "wave"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "rainbow",
+    "pos": "名",
+    "chinese": "彩虹",
+    "type": "clean",
+    "quizWord": "rainbow"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "pretty",
+    "pos": "形",
+    "chinese": "漂亮的",
+    "type": "clean",
+    "quizWord": "pretty"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "garden",
+    "pos": "名",
+    "chinese": "花園",
+    "type": "clean",
+    "quizWord": "garden"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "frog",
+    "pos": "名",
+    "chinese": "青蛙",
+    "type": "clean",
+    "quizWord": "frog"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "noise",
+    "pos": "名",
+    "chinese": "聲響；噪音",
+    "type": "clean",
+    "quizWord": "noise"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "pond",
+    "pos": "名",
+    "chinese": "池塘",
+    "type": "clean",
+    "quizWord": "pond"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "noisy",
+    "pos": "形",
+    "chinese": "嘈雜的",
+    "type": "clean",
+    "quizWord": "noisy"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "earthquake",
+    "pos": "名",
+    "chinese": "地震",
+    "type": "clean",
+    "quizWord": "earthquake"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "bravely",
+    "pos": "副",
+    "chinese": "勇敢地",
+    "type": "clean",
+    "quizWord": "bravely"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "sharp",
+    "pos": "形",
+    "chinese": "尖銳的",
+    "type": "clean",
+    "quizWord": "sharp"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "reach",
+    "pos": "動",
+    "chinese": "到達",
+    "type": "clean",
+    "quizWord": "reach"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "space",
+    "pos": "名",
+    "chinese": "空間",
+    "type": "clean",
+    "quizWord": "space"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "size",
+    "pos": "名",
+    "chinese": "大小；尺寸",
+    "type": "clean",
+    "quizWord": "size"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "or",
+    "pos": "連",
+    "chinese": "否則",
+    "type": "clean",
+    "quizWord": "or"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "have to",
+    "pos": "片",
+    "chinese": "必須",
+    "type": "phrase",
+    "quizWord": "have to"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "go out",
+    "pos": "片",
+    "chinese": "熄滅",
+    "type": "phrase",
+    "quizWord": "go out"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "train",
+    "pos": "動",
+    "chinese": "訓練",
+    "type": "clean",
+    "quizWord": "train"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "face",
+    "pos": "動",
+    "chinese": "面對",
+    "type": "clean",
+    "quizWord": "face"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "try one's best",
+    "pos": "片",
+    "chinese": "盡力而為",
+    "type": "phrase",
+    "quizWord": "try one's best"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "turn on",
+    "pos": "片",
+    "chinese": "打開(電源)",
+    "type": "phrase",
+    "quizWord": "turn on"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "latest",
+    "pos": "形",
+    "chinese": "最新的",
+    "type": "clean",
+    "quizWord": "latest"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "as",
+    "pos": "介",
+    "chinese": "作為；如同",
+    "type": "clean",
+    "quizWord": "as"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "times",
+    "pos": "名",
+    "chinese": "倍",
+    "type": "clean",
+    "quizWord": "times"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "sway",
+    "pos": "動",
+    "chinese": "搖擺",
+    "type": "clean",
+    "quizWord": "sway"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "flashlight",
+    "pos": "名",
+    "chinese": "手電筒",
+    "type": "clean",
+    "quizWord": "flashlight"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "suddenly",
+    "pos": "副",
+    "chinese": "突然",
+    "type": "clean",
+    "quizWord": "suddenly"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "fear",
+    "pos": "名",
+    "chinese": "恐懼",
+    "type": "clean",
+    "quizWord": "fear"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "rescue",
+    "pos": "名:動",
+    "chinese": "救援",
+    "type": "clean",
+    "quizWord": "rescue"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "rubble",
+    "pos": "名",
+    "chinese": "瓦礫；碎石",
+    "type": "clean",
+    "quizWord": "rubble"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "sense",
+    "pos": "名",
+    "chinese": "感官",
+    "type": "clean",
+    "quizWord": "sense"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "survivor",
+    "pos": "名",
+    "chinese": "生還者",
+    "type": "clean",
+    "quizWord": "survivor"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "although",
+    "pos": "連",
+    "chinese": "雖然(=though)",
+    "type": "clean",
+    "quizWord": "although"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "matter",
+    "pos": "名",
+    "chinese": "問題；事件",
+    "type": "clean",
+    "quizWord": "matter"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "sore throat",
+    "pos": "名",
+    "chinese": "喉嚨痛",
+    "type": "phrase",
+    "quizWord": "sore throat"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "explain",
+    "pos": "動",
+    "chinese": "解釋",
+    "type": "clean",
+    "quizWord": "explain"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "probably",
+    "pos": "副",
+    "chinese": "很可能；大概",
+    "type": "clean",
+    "quizWord": "probably"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 4,
+    "word": "take care of",
+    "pos": "片",
+    "chinese": "照顧",
+    "type": "phrase",
+    "quizWord": "take care of"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "noon",
+    "pos": "名",
+    "chinese": "中午",
+    "type": "clean",
+    "quizWord": "noon"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "both",
+    "pos": "代",
+    "chinese": "兩者(都)",
+    "type": "clean",
+    "quizWord": "both"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "medicine",
+    "pos": "名",
+    "chinese": "藥",
+    "type": "clean",
+    "quizWord": "medicine"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "honey",
+    "pos": "名",
+    "chinese": "蜂蜜",
+    "type": "clean",
+    "quizWord": "honey"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "lemon",
+    "pos": "名",
+    "chinese": "檸檬",
+    "type": "clean",
+    "quizWord": "lemon"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "useful",
+    "pos": "形",
+    "chinese": "有用的",
+    "type": "clean",
+    "quizWord": "useful"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "head",
+    "pos": "名",
+    "chinese": "頭",
+    "type": "clean",
+    "quizWord": "head"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "headache",
+    "pos": "名",
+    "chinese": "頭痛",
+    "type": "clean",
+    "quizWord": "headache"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "stomachache",
+    "pos": "名",
+    "chinese": "胃痛",
+    "type": "clean",
+    "quizWord": "stomachache"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "fever",
+    "pos": "名",
+    "chinese": "發燒",
+    "type": "clean",
+    "quizWord": "fever"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "runny nose",
+    "pos": "名",
+    "chinese": "流鼻水",
+    "type": "phrase",
+    "quizWord": "runny nose"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "knee",
+    "pos": "名",
+    "chinese": "膝蓋",
+    "type": "clean",
+    "quizWord": "knee"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "nail",
+    "pos": "名",
+    "chinese": "指甲",
+    "type": "clean",
+    "quizWord": "nail"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "finger",
+    "pos": "名",
+    "chinese": "手指",
+    "type": "clean",
+    "quizWord": "finger"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "neck",
+    "pos": "名",
+    "chinese": "脖子",
+    "type": "clean",
+    "quizWord": "neck"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "shoulder",
+    "pos": "名",
+    "chinese": "肩膀",
+    "type": "clean",
+    "quizWord": "shoulder"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "bakery",
+    "pos": "名",
+    "chinese": "麵包店",
+    "type": "clean",
+    "quizWord": "bakery"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "common",
+    "pos": "形",
+    "chinese": "常見的；共同的",
+    "type": "clean",
+    "quizWord": "common"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "actually",
+    "pos": "副",
+    "chinese": "實際上；事實上",
+    "type": "clean",
+    "quizWord": "actually"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "helpful",
+    "pos": "形",
+    "chinese": "有幫助的",
+    "type": "clean",
+    "quizWord": "helpful"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "root",
+    "pos": "名",
+    "chinese": "根；根源",
+    "type": "clean",
+    "quizWord": "root"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "reason",
+    "pos": "名",
+    "chinese": "原因；理由",
+    "type": "clean",
+    "quizWord": "reason"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "power up",
+    "pos": "片",
+    "chinese": "增強力量",
+    "type": "phrase",
+    "quizWord": "power up"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "stand",
+    "pos": "名",
+    "chinese": "攤位",
+    "type": "clean",
+    "quizWord": "stand"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "feel like",
+    "pos": "片",
+    "chinese": "想要",
+    "type": "phrase",
+    "quizWord": "feel like"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "cold",
+    "pos": "名",
+    "chinese": "感冒",
+    "type": "clean",
+    "quizWord": "cold"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "well",
+    "pos": "形",
+    "chinese": "健康的",
+    "type": "clean",
+    "quizWord": "well"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "treat",
+    "pos": "動",
+    "chinese": "治療",
+    "type": "clean",
+    "quizWord": "treat"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "sweet",
+    "pos": "形",
+    "chinese": "甜食",
+    "type": "clean",
+    "quizWord": "sweet"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "sharp",
+    "pos": "形",
+    "chinese": "敏銳的",
+    "type": "clean",
+    "quizWord": "sharp"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "recipe",
+    "pos": "名",
+    "chinese": "食譜",
+    "type": "clean",
+    "quizWord": "recipe"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "memory",
+    "pos": "名",
+    "chinese": "記憶；記憶力",
+    "type": "clean",
+    "quizWord": "memory"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "brain",
+    "pos": "名",
+    "chinese": "頭腦",
+    "type": "clean",
+    "quizWord": "brain"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "focus",
+    "pos": "名:動",
+    "chinese": "專注；焦點",
+    "type": "clean",
+    "quizWord": "focus"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 5,
+    "word": "blood",
+    "pos": "名",
+    "chinese": "血液",
+    "type": "clean",
+    "quizWord": "blood"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "pass",
+    "pos": "動",
+    "chinese": "傳遞；通過",
+    "type": "clean",
+    "quizWord": "pass"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "throw",
+    "pos": "動",
+    "chinese": "丟；投擲",
+    "type": "clean",
+    "quizWord": "throw"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "point",
+    "pos": "動",
+    "chinese": "得分",
+    "type": "clean",
+    "quizWord": "point"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "win",
+    "pos": "動",
+    "chinese": "贏；獲勝",
+    "type": "clean",
+    "quizWord": "win"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "until",
+    "pos": "連:介",
+    "chinese": "直到",
+    "type": "clean",
+    "quizWord": "until"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "member",
+    "pos": "名",
+    "chinese": "成員",
+    "type": "clean",
+    "quizWord": "member"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "group",
+    "pos": "名",
+    "chinese": "團體",
+    "type": "clean",
+    "quizWord": "group"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "fail",
+    "pos": "動",
+    "chinese": "考不及格；失敗",
+    "type": "clean",
+    "quizWord": "fail"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "test",
+    "pos": "名",
+    "chinese": "考試",
+    "type": "clean",
+    "quizWord": "test"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "afraid",
+    "pos": "形",
+    "chinese": "害怕的；擔憂的",
+    "type": "clean",
+    "quizWord": "afraid"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "forget",
+    "pos": "動",
+    "chinese": "忘記",
+    "type": "clean",
+    "quizWord": "forget"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "fresh",
+    "pos": "形",
+    "chinese": "新的；新鮮的",
+    "type": "clean",
+    "quizWord": "fresh"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "count...in",
+    "pos": "片",
+    "chinese": "算...參加一份",
+    "type": "phrase",
+    "quizWord": "count...in"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "begin",
+    "pos": "動",
+    "chinese": "開始",
+    "type": "clean",
+    "quizWord": "begin"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "meeting",
+    "pos": "名",
+    "chinese": "會議；會面",
+    "type": "clean",
+    "quizWord": "meeting"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "simple",
+    "pos": "形",
+    "chinese": "簡單的",
+    "type": "clean",
+    "quizWord": "simple"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "expect",
+    "pos": "動",
+    "chinese": "預計；期望",
+    "type": "clean",
+    "quizWord": "expect"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "mistake",
+    "pos": "名",
+    "chinese": "錯誤",
+    "type": "clean",
+    "quizWord": "mistake"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "angle",
+    "pos": "名",
+    "chinese": "立場；角度",
+    "type": "clean",
+    "quizWord": "angle"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "allow",
+    "pos": "動",
+    "chinese": "允許",
+    "type": "clean",
+    "quizWord": "allow"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "laugh",
+    "pos": "名:動",
+    "chinese": "笑；笑聲",
+    "type": "clean",
+    "quizWord": "laugh"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "honest",
+    "pos": "形",
+    "chinese": "誠實的；可信的",
+    "type": "clean",
+    "quizWord": "honest"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "lead to",
+    "pos": "片",
+    "chinese": "導致",
+    "type": "phrase",
+    "quizWord": "lead to"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "push",
+    "pos": "動",
+    "chinese": "迫使；推動",
+    "type": "clean",
+    "quizWord": "push"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "excellent",
+    "pos": "形",
+    "chinese": "優秀的；極佳的",
+    "type": "clean",
+    "quizWord": "excellent"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "be able to",
+    "pos": "片",
+    "chinese": "能夠",
+    "type": "phrase",
+    "quizWord": "be able to"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "define",
+    "pos": "動",
+    "chinese": "下定義；界定",
+    "type": "clean",
+    "quizWord": "define"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "come on",
+    "pos": "片",
+    "chinese": "快點；少來了",
+    "type": "phrase",
+    "quizWord": "come on"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "excuse",
+    "pos": "名",
+    "chinese": "藉口；理由",
+    "type": "clean",
+    "quizWord": "excuse"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "around the corner",
+    "pos": "片",
+    "chinese": "即將來臨；在附近",
+    "type": "phrase",
+    "quizWord": "around the corner"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "grade",
+    "pos": "名",
+    "chinese": "成績",
+    "type": "clean",
+    "quizWord": "grade"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "hold back",
+    "pos": "片",
+    "chinese": "阻礙",
+    "type": "phrase",
+    "quizWord": "hold back"
+  },
+  {
+    "version": "翰林版",
+    "lesson": 6,
+    "word": "few",
+    "pos": "形:代",
+    "chinese": "很少(的)",
+    "type": "clean",
+    "quizWord": "few"
+  }
+]

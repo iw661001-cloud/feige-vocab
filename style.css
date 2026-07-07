@@ -1,0 +1,194 @@
+:root {
+  --primary: #d9480f;
+  --primary-dark: #b23c0d;
+  --correct: #2f9e44;
+  --wrong: #e03131;
+  --bg: #f4f6fb;
+  --card-bg: #ffffff;
+  --text: #1c2230;
+  --muted: #6b7280;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  background: var(--primary);
+  color: #fff;
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+main {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.quiz-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.meta-badge {
+  background: #fff1e6;
+  color: var(--primary-dark);
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 0.85rem;
+}
+
+.chinese-meaning {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.blank-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.blank-group {
+  display: flex;
+  gap: 4px;
+}
+
+.letter-box {
+  width: 2.1rem;
+  height: 2.4rem;
+  text-align: center;
+  font-size: 1.3rem;
+  border: 2px solid #dde2f0;
+  border-radius: 8px;
+  text-transform: lowercase;
+}
+
+.letter-box.static {
+  background: #edf1ff;
+  color: var(--primary-dark);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed;
+}
+
+.letter-box.correct {
+  border-color: var(--correct);
+  background: #ebfbee;
+}
+
+.letter-box.wrong {
+  border-color: var(--wrong);
+  background: #fff0f0;
+}
+
+.dual-slash {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--muted);
+  margin: 0 4px;
+}
+
+.space-gap {
+  width: 14px;
+}
+
+.ellipsis-static {
+  font-size: 1.3rem;
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.feedback-banner {
+  min-height: 36px;
+  margin-top: 16px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.feedback-banner.celebrate {
+  color: var(--correct);
+}
+
+.nav-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.nav-btn {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-btn.secondary {
+  background: #f1d9c9;
+  color: var(--primary-dark);
+}
+
+.quiz-result {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 30px 24px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.quiz-result .score {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-dark);
+  margin: 10px 0 20px;
+}
+
+@media (min-width: 700px) {
+  main { max-width: 640px; }
+  .chinese-meaning { font-size: 2rem; }
+  .letter-box { width: 2.5rem; height: 2.8rem; font-size: 1.6rem; }
+  header h1 { font-size: 1.6rem; }
+}
