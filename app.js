@@ -4,6 +4,16 @@ const scoreText = document.getElementById("scoreText");
 
 const SESSION_LENGTH = 15;
 
+const POS_NAMES = {
+  "名": "名詞", "動": "動詞", "形": "形容詞", "副": "副詞",
+  "介": "介系詞", "代": "代名詞", "連": "連接詞", "助": "助動詞", "片": "片語",
+};
+
+function posLabel(pos) {
+  if (!pos) return "";
+  return pos.split(":").map((p) => POS_NAMES[p] || p).join("/");
+}
+
 let allEntries = [];
 let sessionQueue = [];
 let sessionPos = 0;
@@ -113,7 +123,7 @@ function renderQuestion() {
   const metaBadges = [
     `<span class="meta-badge">${currentEntry.version}</span>`,
     `<span class="meta-badge">第${currentEntry.lesson}課</span>`,
-    currentEntry.pos ? `<span class="meta-badge">${currentEntry.pos}</span>` : "",
+    currentEntry.pos ? `<span class="meta-badge">${posLabel(currentEntry.pos)}</span>` : "",
   ].join("");
 
   const blankHtml = segments.map((seg) => {

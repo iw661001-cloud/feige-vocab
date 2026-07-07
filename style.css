@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-  margin: 0 0 10px;
+  margin: 0;
   font-size: 1.3rem;
   text-align: center;
 }
@@ -36,9 +36,13 @@ header h1 {
 .stats-bar {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 24px;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  background: #fff;
+  color: var(--primary-dark);
+  padding: 10px 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 main {
