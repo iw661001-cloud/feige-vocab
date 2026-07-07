@@ -90,6 +90,8 @@ function buildPhraseSegments(str, revealEnds) {
   return segments;
 }
 
+// 頭尾字母提示的目的是限縮同義字/片語範圍（不只是方便拼字），
+// 所以 clean／phrase／dual 都統一套用「每個字頭尾顯示、中間逐字母輸入」的規則。
 function buildBlankPlan(entry) {
   const word = entry.quizWord;
   if (entry.type === "dual") {
@@ -97,13 +99,12 @@ function buildBlankPlan(entry) {
     const left = word.slice(0, slashIdx);
     const right = word.slice(slashIdx + 1);
     return [
-      ...buildPhraseSegments(left, false),
+      ...buildPhraseSegments(left, true),
       { kind: "slash" },
-      ...buildPhraseSegments(right, false),
+      ...buildPhraseSegments(right, true),
     ];
   }
-  if (entry.type === "phrase") return buildPhraseSegments(word, false);
-  return buildPhraseSegments(word, true); // clean
+  return buildPhraseSegments(word, true);
 }
 
 // ================= 出題與畫面 =================
