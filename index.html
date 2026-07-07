@@ -9,6 +9,11 @@
 <body>
 <header>
   <h1>英文單字拼寫練習</h1>
+  <div class="name-bar">
+    <span id="nameDisplay"></span>
+    <button id="switchNameBtn" class="link-btn">切換使用者</button>
+    <a href="dashboard.html" class="link-btn" style="text-decoration:none;">儀表板</a>
+  </div>
 </header>
 
 <div class="stats-bar">
@@ -18,6 +23,19 @@
 
 <main id="app"></main>
 
+<div class="name-modal" id="nameModal">
+  <div class="name-modal-box">
+    <h2>你是誰？</h2>
+    <p class="name-modal-hint">選擇已經用過的姓名，或直接輸入自己的姓名</p>
+    <input list="nameOptions" id="nameInput" placeholder="輸入或選擇姓名">
+    <datalist id="nameOptions"></datalist>
+    <button class="nav-btn" id="nameConfirmBtn">開始練習</button>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="firebase-init.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

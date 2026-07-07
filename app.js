@@ -21,8 +21,63 @@ let correctCount = 0;
 let wrongCount = 0;
 let currentEntry = null;
 let currentInputs = []; // flat ordered list of <input> elements for the current question
+let sessionResults = []; // 本場次每題結果，session結束時同步雲端用
+
+// ---- 使用者姓名（同步練習成果到雲端，讓家長儀表板能區分是誰練習的） ----
+const NAME_KEY = "feige-vocab-name";
+let currentName = localStorage.getItem(NAME_KEY) || null;
+
+function sanitizeId(text) {
+  return text.replace(/[\/#?.]/g, "-");
+}
+
+function entryKey(entry) {
+  return sanitizeId(`${entry.version}__${entry.lesson}__${entry.quizWord}`);
+}
+
+function initNameUI() {
+  const nameModal = document.getElementById("nameModal");
+  const nameInput = document.getElementById("nameInput");
+
+  document.getElementById("switchNameBtn").addEventListener("click", () => {
+    nameInput.value = currentName || "";
+    nameModal.style.display = "flex";
+  });
+  document.getElementById("nameConfirmBtn").addEventListener("click", () => {
+    const name = nameInput.value.trim();
+    if (!name) return;
+    currentName = name;
+    localStorage.setItem(NAME_KEY, name);
+    db.collection("feige_students").doc(sanitizeId(name)).set({
+      name,
+      lastActiveAt: firebase.firestore.FieldValue.serverTimestamp(),
+    }, { merge: true });
+    nameModal.style.display = "none";
+    updateNameDisplay();
+  });
+
+  db.collection("feige_students").get().then((snap) => {
+    const datalist = document.getElementById("nameOptions");
+    snap.forEach((doc) => {
+      const opt = document.createElement("option");
+      opt.value = doc.data().name || doc.id;
+      datalist.appendChild(opt);
+    });
+  });
+
+  if (!currentName) {
+    nameModal.style.display = "flex";
+  } else {
+    updateNameDisplay();
+  }
+}
+
+function updateNameDisplay() {
+  document.getElementById("nameDisplay").textContent = currentName ? `使用者：${currentName}` : "";
+}
 
 function init() {
+  initNameUI();
   fetch("data/vocab.json")
     .then((res) => res.json())
     .then((data) => {
@@ -45,6 +100,7 @@ function startSession() {
   sessionPos = 0;
   correctCount = 0;
   wrongCount = 0;
+  sessionResults = [];
   renderQuestion();
 }
 
@@ -190,6 +246,7 @@ function onLetterInput(input, idx) {
 const CELEBRATE_PHRASES = ["太棒了！", "答對了！", "拼寫正確！", "完全正確！"];
 
 function finishQuestion(correct) {
+  sessionResults.push({ entry: currentEntry, correct });
   if (correct) {
     correctCount++;
     const phrase = CELEBRATE_PHRASES[Math.floor(Math.random() * CELEBRATE_PHRASES.length)];
@@ -214,7 +271,41 @@ function skipQuestion() {
   finishQuestion(false);
 }
 
+// 場次結束時同步這場的成績與每個字的對錯次數到雲端，讓家長儀表板看得到
+function syncSessionToCloud() {
+  if (!currentName) return;
+  const today = new Date().toISOString().slice(0, 10);
+  const studentRef = db.collection("feige_students").doc(sanitizeId(currentName));
+
+  studentRef.set({
+    name: currentName,
+    lastActiveAt: firebase.firestore.FieldValue.serverTimestamp(),
+  }, { merge: true });
+
+  studentRef.collection("sessions").add({
+    date: today,
+    correctCount,
+    wrongCount,
+    completedAt: firebase.firestore.FieldValue.serverTimestamp(),
+  });
+
+  sessionResults.forEach(({ entry, correct }) => {
+    const wordRef = studentRef.collection("words").doc(entryKey(entry));
+    wordRef.set({
+      word: entry.quizWord,
+      version: entry.version,
+      lesson: entry.lesson,
+      chinese: entry.chinese,
+      attempts: firebase.firestore.FieldValue.increment(1),
+      correctCount: firebase.firestore.FieldValue.increment(correct ? 1 : 0),
+      updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+    }, { merge: true });
+  });
+}
+
 function renderResult() {
+  syncSessionToCloud();
+
   appEl.innerHTML = `
     <div class="quiz-result">
       <div>練習完成！</div>

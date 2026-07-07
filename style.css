@@ -28,9 +28,72 @@ header {
 }
 
 header h1 {
-  margin: 0;
+  margin: 0 0 10px;
   font-size: 1.3rem;
   text-align: center;
+}
+
+.name-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.link-btn {
+  background: #fff;
+  border: none;
+  color: var(--primary-dark);
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a.link-btn,
+a.link-btn:visited {
+  color: var(--primary-dark);
+}
+
+.name-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.name-modal-box {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 28px 24px;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+}
+
+.name-modal-box h2 {
+  margin-top: 0;
+}
+
+.name-modal-hint {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.name-modal-box input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #dde2f0;
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 
 .stats-bar {
@@ -195,4 +258,40 @@ main {
   .chinese-meaning { font-size: 2rem; }
   .letter-box { width: 2.5rem; height: 2.8rem; font-size: 1.6rem; }
   header h1 { font-size: 1.6rem; }
+}
+
+/* 儀表板（家長監看頁）用第三種主題色，跟練習頁的橘色區隔 */
+body.dashboard-theme {
+  --primary: #7048e8;
+  --primary-dark: #5f3dc4;
+}
+
+.empty-msg {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 30px 24px;
+  text-align: center;
+  color: var(--muted);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.student-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.student-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin-bottom: 10px;
+}
+
+.student-stats {
+  color: var(--text);
+  font-size: 1.15rem;
+  line-height: 1.8;
 }
