@@ -120,15 +120,26 @@ function splitEllipsis(token) {
   return result;
 }
 
+// 頭尾字母提示不能讓整個字都露出來（等於沒考），所以依字母數調整：
+// 1個字母：整個當輸入格（不顯示）
+// 2個字母：只顯示第一個字母，第二個字母也要輸入
+// 3個字母以上：頭尾都顯示，中間逐字母輸入
 function wordToLetters(text, revealEnds) {
   const chars = text.split("");
   const alphaIdx = [];
   chars.forEach((c, i) => { if (/[a-zA-Z]/.test(c)) alphaIdx.push(i); });
   const first = alphaIdx[0];
   const last = alphaIdx[alphaIdx.length - 1];
+  const alphaCount = alphaIdx.length;
   return chars.map((c, i) => {
     if (!/[a-zA-Z]/.test(c)) return { char: c, input: false };
-    if (revealEnds && (i === first || i === last)) return { char: c, input: false };
+    if (!revealEnds) return { char: c.toLowerCase(), input: true };
+    if (alphaCount <= 1) return { char: c.toLowerCase(), input: true };
+    if (alphaCount === 2) {
+      if (i === first) return { char: c, input: false };
+      return { char: c.toLowerCase(), input: true };
+    }
+    if (i === first || i === last) return { char: c, input: false };
     return { char: c.toLowerCase(), input: true };
   });
 }
