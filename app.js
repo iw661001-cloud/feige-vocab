@@ -1,6 +1,7 @@
 const appEl = document.getElementById("app");
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("scoreText");
+const posScoreText = document.getElementById("posScoreText");
 
 const SESSION_LENGTH = 15;
 
@@ -15,6 +16,9 @@ const SEMESTERS = {
   "下": { label: "下學期", file: "data/vocab-下學期.json" },
 };
 
+// 詞性點選題只用這幾個核心詞性當選項；片語沒有單一詞性，不出詞性題（見 buildBlankPlan 呼叫端的判斷）
+const POS_QUIZ_OPTIONS = ["名", "動", "形", "副", "介", "代", "連", "助", "感"];
+
 function posLabel(pos) {
   if (!pos) return "";
   return pos.split(":").map((p) => POS_NAMES[p] || p).join("/");
@@ -25,8 +29,13 @@ let sessionQueue = [];
 let sessionPos = 0;
 let correctCount = 0;
 let wrongCount = 0;
+let posCorrectCount = 0;
+let posWrongCount = 0;
 let currentEntry = null;
 let currentInputs = []; // flat ordered list of <input> elements for the current question
+let currentPosRequired = false; // 這一題要不要先答詞性才能拼字
+let currentPosAnswered = false;
+let currentPosCorrect = null; // true/false=已作答的詞性對錯，null=這題沒有考詞性
 let sessionResults = []; // 本場次每題結果，session結束時同步雲端用
 
 // ---- 使用者姓名（同步練習成果到雲端，讓家長儀表板能區分是誰練習的） ----
@@ -151,6 +160,8 @@ function startSession() {
   sessionPos = 0;
   correctCount = 0;
   wrongCount = 0;
+  posCorrectCount = 0;
+  posWrongCount = 0;
   sessionResults = [];
   renderQuestion();
 }
@@ -171,10 +182,11 @@ function splitEllipsis(token) {
   return result;
 }
 
-// 頭尾字母提示不能讓整個字都露出來（等於沒考），所以依字母數調整：
-// 1個字母：整個當輸入格（不顯示）
-// 2個字母：只顯示第一個字母，第二個字母也要輸入
-// 3個字母以上：頭尾都顯示，中間逐字母輸入
+// 字首字尾一律要輸入，不再直接顯示在格子裡；「提醒」改成顯示在格子上方的提示列，
+// 目的一樣是限縮同義字/片語範圍，但使用者反映原本頭尾直接顯示等於沒有完整拼過整個字。
+// 1個字母：不提示（提示等於直接公布答案）
+// 2個字母：只提示第一個字母
+// 3個字母以上：頭尾都提示
 function wordToLetters(text, revealEnds) {
   const chars = text.split("");
   const alphaIdx = [];
@@ -183,15 +195,11 @@ function wordToLetters(text, revealEnds) {
   const last = alphaIdx[alphaIdx.length - 1];
   const alphaCount = alphaIdx.length;
   return chars.map((c, i) => {
-    if (!/[a-zA-Z]/.test(c)) return { char: c, input: false };
-    if (!revealEnds) return { char: c.toLowerCase(), input: true };
-    if (alphaCount <= 1) return { char: c.toLowerCase(), input: true };
-    if (alphaCount === 2) {
-      if (i === first) return { char: c, input: false };
-      return { char: c.toLowerCase(), input: true };
-    }
-    if (i === first || i === last) return { char: c, input: false };
-    return { char: c.toLowerCase(), input: true };
+    if (!/[a-zA-Z]/.test(c)) return { char: c, input: false, hint: false };
+    const lower = c.toLowerCase();
+    if (!revealEnds || alphaCount <= 1) return { char: lower, input: true, hint: false };
+    if (alphaCount === 2) return { char: lower, input: true, hint: i === first };
+    return { char: lower, input: true, hint: i === first || i === last };
   });
 }
 
@@ -233,37 +241,54 @@ function renderQuestion() {
     return;
   }
   progressText.textContent = `第 ${sessionPos + 1} / ${SESSION_LENGTH} 題`;
-  scoreText.textContent = `對 ${correctCount}・錯 ${wrongCount}`;
+  scoreText.textContent = `拼字 對${correctCount}・錯${wrongCount}`;
+  posScoreText.textContent = `詞性 對${posCorrectCount}・錯${posWrongCount}`;
 
   currentEntry = sessionQueue[sessionPos];
   const segments = buildBlankPlan(currentEntry);
   currentInputs = [];
 
+  // 片語沒有單一詞性，不出詞性題；其餘只要有標詞性就先考詞性，答對/答錯才能繼續拼字
+  currentPosRequired = currentEntry.type !== "phrase" && !!currentEntry.pos;
+  currentPosAnswered = !currentPosRequired;
+  currentPosCorrect = null;
+
+  // 詞性要考的題目不能在徽章先爆雷答案，只有不考詞性的題目（片語、無標詞性）才照樣顯示
   const metaBadges = [
     `<span class="meta-badge">${SEMESTERS[currentSemester].label}</span>`,
     `<span class="meta-badge">${currentEntry.version}</span>`,
     `<span class="meta-badge">第${currentEntry.lesson}課</span>`,
-    currentEntry.pos ? `<span class="meta-badge">${posLabel(currentEntry.pos)}</span>` : "",
+    (!currentPosRequired && currentEntry.pos) ? `<span class="meta-badge">${posLabel(currentEntry.pos)}</span>` : "",
   ].join("");
 
+  const posRowHtml = currentPosRequired
+    ? `<div class="pos-row" id="posRow">${POS_QUIZ_OPTIONS.map((p) =>
+        `<button class="pos-btn" data-pos="${p}">${POS_NAMES[p]}</button>`
+      ).join("")}</div>`
+    : "";
+
   const blankHtml = segments.map((seg) => {
-    if (seg.kind === "space") return `<span class="space-gap"></span>`;
-    if (seg.kind === "ellipsis") return `<span class="ellipsis-static">...</span>`;
-    if (seg.kind === "slash") return `<span class="dual-slash">/</span>`;
-    // word
+    if (seg.kind === "space") return `<div class="segment-col"><div class="hint-row"></div><span class="space-gap"></span></div>`;
+    if (seg.kind === "ellipsis") return `<div class="segment-col"><div class="hint-row"></div><span class="ellipsis-static">...</span></div>`;
+    if (seg.kind === "slash") return `<div class="segment-col"><div class="hint-row"></div><span class="dual-slash">/</span></div>`;
+    // word：提示列與輸入格上下對齊，同一個字母的提示字元要對到同一格
+    const hintCells = seg.letters.map((letter) =>
+      `<span class="hint-cell">${letter.hint ? letter.char : ""}</span>`
+    ).join("");
     const cells = seg.letters.map((letter) => {
       if (!letter.input) {
         return `<div class="letter-box static">${letter.char}</div>`;
       }
       return `<input class="letter-box" maxlength="1" data-answer="${letter.char}" autocomplete="off" autocapitalize="off" spellcheck="false">`;
     }).join("");
-    return `<div class="blank-group">${cells}</div>`;
+    return `<div class="segment-col"><div class="hint-row">${hintCells}</div><div class="blank-group">${cells}</div></div>`;
   }).join("");
 
   appEl.innerHTML = `
     <div class="quiz-card">
       <div class="meta-row">${metaBadges}</div>
       <div class="chinese-meaning">${currentEntry.chinese}</div>
+      ${posRowHtml}
       <div class="blank-row">${blankHtml}</div>
       <div class="feedback-banner" id="feedbackBanner"></div>
       <div class="nav-row">
@@ -276,9 +301,40 @@ function renderQuestion() {
   currentInputs.forEach((input, idx) => {
     input.addEventListener("input", () => onLetterInput(input, idx));
   });
-  if (currentInputs.length > 0) currentInputs[0].focus();
+
+  if (currentPosRequired) {
+    // 先答詞性，答完才能拼字：拼字格先鎖住，避免同時作答混在一起計分
+    currentInputs.forEach((input) => { input.disabled = true; });
+    appEl.querySelectorAll(".pos-btn").forEach((btn) => {
+      btn.addEventListener("click", () => onPosChoice(btn));
+    });
+  } else if (currentInputs.length > 0) {
+    currentInputs[0].focus();
+  }
 
   document.getElementById("skipBtn").addEventListener("click", skipQuestion);
+}
+
+function onPosChoice(btn) {
+  if (currentPosAnswered) return; // 已經答過鎖住了，不能再改
+  const chosen = btn.dataset.pos;
+  const validPos = currentEntry.pos.split(":");
+  const isCorrect = validPos.includes(chosen);
+
+  currentPosAnswered = true;
+  appEl.querySelectorAll(".pos-btn").forEach((b) => {
+    b.disabled = true;
+    if (validPos.includes(b.dataset.pos)) b.classList.add("correct");
+    else if (b === btn) b.classList.add("wrong");
+  });
+
+  currentPosCorrect = isCorrect;
+  if (isCorrect) posCorrectCount++;
+  else posWrongCount++;
+  posScoreText.textContent = `詞性 對${posCorrectCount}・錯${posWrongCount}`;
+
+  currentInputs.forEach((input) => { input.disabled = false; });
+  if (currentInputs.length > 0) currentInputs[0].focus();
 }
 
 function onLetterInput(input, idx) {
@@ -309,7 +365,7 @@ function onLetterInput(input, idx) {
 const CELEBRATE_PHRASES = ["太棒了！", "答對了！", "拼寫正確！", "完全正確！"];
 
 function finishQuestion(correct) {
-  sessionResults.push({ entry: currentEntry, correct });
+  sessionResults.push({ entry: currentEntry, correct, posCorrect: currentPosCorrect });
   if (correct) {
     correctCount++;
     const phrase = CELEBRATE_PHRASES[Math.floor(Math.random() * CELEBRATE_PHRASES.length)];
@@ -317,7 +373,7 @@ function finishQuestion(correct) {
   } else {
     wrongCount++;
   }
-  scoreText.textContent = `對 ${correctCount}・錯 ${wrongCount}`;
+  scoreText.textContent = `拼字 對${correctCount}・錯${wrongCount}`;
   setTimeout(() => {
     sessionPos++;
     renderQuestion();
@@ -331,6 +387,18 @@ function skipQuestion() {
     input.disabled = true;
     input.classList.add("wrong");
   });
+  // 詞性還沒作答就跳過，也算詞性答錯，並公布正確詞性
+  if (currentPosRequired && !currentPosAnswered) {
+    currentPosAnswered = true;
+    currentPosCorrect = false;
+    posWrongCount++;
+    posScoreText.textContent = `詞性 對${posCorrectCount}・錯${posWrongCount}`;
+    const validPos = currentEntry.pos.split(":");
+    appEl.querySelectorAll(".pos-btn").forEach((b) => {
+      b.disabled = true;
+      if (validPos.includes(b.dataset.pos)) b.classList.add("correct");
+    });
+  }
   finishQuestion(false);
 }
 
@@ -350,12 +418,14 @@ function syncSessionToCloud() {
     semester: currentSemester,
     correctCount,
     wrongCount,
+    posCorrectCount,
+    posWrongCount,
     completedAt: firebase.firestore.FieldValue.serverTimestamp(),
   });
 
-  sessionResults.forEach(({ entry, correct }) => {
+  sessionResults.forEach(({ entry, correct, posCorrect }) => {
     const wordRef = studentRef.collection("words").doc(entryKey(entry));
-    wordRef.set({
+    const update = {
       word: entry.quizWord,
       semester: currentSemester,
       version: entry.version,
@@ -364,17 +434,27 @@ function syncSessionToCloud() {
       attempts: firebase.firestore.FieldValue.increment(1),
       correctCount: firebase.firestore.FieldValue.increment(correct ? 1 : 0),
       updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
-    }, { merge: true });
+    };
+    if (posCorrect !== null) {
+      update.posAttempts = firebase.firestore.FieldValue.increment(1);
+      update.posCorrectCount = firebase.firestore.FieldValue.increment(posCorrect ? 1 : 0);
+    }
+    wordRef.set(update, { merge: true });
   });
 }
 
 function renderResult() {
   syncSessionToCloud();
 
+  const posSummary = (posCorrectCount + posWrongCount > 0)
+    ? `<div class="score pos-score">詞性 對 ${posCorrectCount} 題・錯 ${posWrongCount} 題</div>`
+    : "";
+
   appEl.innerHTML = `
     <div class="quiz-result">
       <div>練習完成！</div>
-      <div class="score">對 ${correctCount} 題・錯 ${wrongCount} 題</div>
+      <div class="score">拼字 對 ${correctCount} 題・錯 ${wrongCount} 題</div>
+      ${posSummary}
       <button class="nav-btn" id="retryBtn">再練習一次</button>
     </div>
   `;
