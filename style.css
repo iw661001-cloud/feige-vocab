@@ -96,6 +96,11 @@ a.link-btn:visited {
   margin-bottom: 16px;
 }
 
+.semester-choice-row {
+  display: flex;
+  gap: 10px;
+}
+
 .stats-bar {
   display: flex;
   justify-content: center;
@@ -294,4 +299,27 @@ body.dashboard-theme {
   color: var(--text);
   font-size: 1.15rem;
   line-height: 1.8;
+}
+
+.semester-block {
+  border-top: 1px solid #eceef5;
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.semester-block:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.semester-title {
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin-bottom: 6px;
+}
+
+.empty-msg-inline {
+  color: var(--muted);
+  font-size: 0.95rem;
 }

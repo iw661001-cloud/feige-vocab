@@ -7,6 +7,12 @@ const SESSION_LENGTH = 15;
 const POS_NAMES = {
   "名": "名詞", "動": "動詞", "形": "形容詞", "副": "副詞",
   "介": "介系詞", "代": "代名詞", "連": "連接詞", "助": "助動詞", "片": "片語",
+  "感": "感嘆詞", "句": "句子",
+};
+
+const SEMESTERS = {
+  "上": { label: "上學期", file: "data/vocab-上學期.json" },
+  "下": { label: "下學期", file: "data/vocab-下學期.json" },
 };
 
 function posLabel(pos) {
@@ -27,12 +33,16 @@ let sessionResults = []; // 本場次每題結果，session結束時同步雲端
 const NAME_KEY = "feige-vocab-name";
 let currentName = localStorage.getItem(NAME_KEY) || null;
 
+// ---- 學期（上學期／下學期各自獨立題庫與成績統計） ----
+const SEMESTER_KEY = "feige-vocab-semester";
+let currentSemester = localStorage.getItem(SEMESTER_KEY) || null;
+
 function sanitizeId(text) {
   return text.replace(/[\/#?.]/g, "-");
 }
 
 function entryKey(entry) {
-  return sanitizeId(`${entry.version}__${entry.lesson}__${entry.quizWord}`);
+  return sanitizeId(`${currentSemester}__${entry.version}__${entry.lesson}__${entry.quizWord}`);
 }
 
 function initNameUI() {
@@ -54,6 +64,7 @@ function initNameUI() {
     }, { merge: true });
     nameModal.style.display = "none";
     updateNameDisplay();
+    ensureSemesterThenStart();
   });
 
   db.collection("feige_students").get().then((snap) => {
@@ -76,14 +87,54 @@ function updateNameDisplay() {
   document.getElementById("nameDisplay").textContent = currentName ? `使用者：${currentName}` : "";
 }
 
-function init() {
-  initNameUI();
-  fetch("data/vocab.json")
+function initSemesterUI() {
+  const semesterModal = document.getElementById("semesterModal");
+
+  document.getElementById("switchSemesterBtn").addEventListener("click", () => {
+    semesterModal.style.display = "flex";
+  });
+  document.getElementById("semesterUpBtn").addEventListener("click", () => selectSemester("上"));
+  document.getElementById("semesterDownBtn").addEventListener("click", () => selectSemester("下"));
+}
+
+function selectSemester(semester) {
+  currentSemester = semester;
+  localStorage.setItem(SEMESTER_KEY, semester);
+  document.getElementById("semesterModal").style.display = "none";
+  updateSemesterDisplay();
+  loadVocabAndStart();
+}
+
+function updateSemesterDisplay() {
+  const el = document.getElementById("semesterDisplay");
+  el.textContent = currentSemester ? SEMESTERS[currentSemester].label : "";
+}
+
+// 姓名確認後才問學期：同一個人可能上下學期都要複習，姓名優先讓儀表板認得人
+function ensureSemesterThenStart() {
+  if (currentSemester) {
+    updateSemesterDisplay();
+    loadVocabAndStart();
+  } else {
+    document.getElementById("semesterModal").style.display = "flex";
+  }
+}
+
+function loadVocabAndStart() {
+  fetch(SEMESTERS[currentSemester].file)
     .then((res) => res.json())
     .then((data) => {
       allEntries = data;
       startSession();
     });
+}
+
+function init() {
+  initNameUI();
+  initSemesterUI();
+  if (currentName) {
+    ensureSemesterThenStart();
+  }
 }
 
 function shuffle(arr) {
@@ -189,6 +240,7 @@ function renderQuestion() {
   currentInputs = [];
 
   const metaBadges = [
+    `<span class="meta-badge">${SEMESTERS[currentSemester].label}</span>`,
     `<span class="meta-badge">${currentEntry.version}</span>`,
     `<span class="meta-badge">第${currentEntry.lesson}課</span>`,
     currentEntry.pos ? `<span class="meta-badge">${posLabel(currentEntry.pos)}</span>` : "",
@@ -295,6 +347,7 @@ function syncSessionToCloud() {
 
   studentRef.collection("sessions").add({
     date: today,
+    semester: currentSemester,
     correctCount,
     wrongCount,
     completedAt: firebase.firestore.FieldValue.serverTimestamp(),
@@ -304,6 +357,7 @@ function syncSessionToCloud() {
     const wordRef = studentRef.collection("words").doc(entryKey(entry));
     wordRef.set({
       word: entry.quizWord,
+      semester: currentSemester,
       version: entry.version,
       lesson: entry.lesson,
       chinese: entry.chinese,
